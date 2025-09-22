@@ -73,6 +73,7 @@ jobs:
           mkdir -p assets/l10n
           touch assets/l10n/_untranslated.json
           python3 ../flatpak-flutter/flatpak-flutter.py flatpak-flutter.yml
+          rm -fr assets
       - name: Create PR
         if: steps.diff.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v7
@@ -90,6 +91,7 @@ jobs:
             [2]: https://github.com/peter-evans/create-pull-request
           assignees: FriesI23
           maintainer-can-modify: true
+          push-to-fork: FriesI23/flathub-io.github.friesi23.mhabit
           draft: false
       - name: Clear
         if: always()
