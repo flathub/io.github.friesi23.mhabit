@@ -44,7 +44,15 @@ jobs:
           GH_TOKEN: ${{ secrets.AUTO_CI_TOKEN }}
           REPO: ${{ env.OWNER }}/${{ env.REPO }}
         run: |
-          TAG=$(gh release list --repo $REPO --limit 1 --json tagName  --jq '.[0].tagName')
+          TAG=$(
+            gh release list \
+              --exclude-pre-releases \
+              --exclude-drafts \
+              --repo $REPO \
+              --limit 1 \
+              --json tagName \
+              --jq '.[0].tagName'
+          )
           COMMIT=$(gh api repos/$REPO/git/ref/tags/$TAG -q .object.sha)
           echo "tag=$TAG" >> $GITHUB_OUTPUT
           echo "commit=$COMMIT" >> $GITHUB_OUTPUT
