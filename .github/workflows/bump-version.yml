@@ -60,7 +60,27 @@ jobs:
         run: |
           echo "Latest tag: ${{ steps.release-info.outputs.tag }}"
           echo "Commit SHA: ${{ steps.release-info.outputs.commit }}"
+      - name: Get current Release Info
+        id: tag-diff
+        env:
+            FILE: flatpak-flutter.yml
+            NEW_TAG: ${{ steps.release-info.outputs.tag }}
+        run: |
+          set -e
+          RAW_TAG=$(yq -r '.modules[]
+            | select(.name == "mhabit")
+            | .sources[]
+            | select(.url == "https://github.com/FriesI23/mhabit.git")
+            | .tag' "$FILE")
+          echo "RAW_TAG=$RAW_TAG"
+          TAG="${RAW_TAG#*-}"
+          echo "TAG=$TAG"
+          echo "NEW_TAG=$NEW_TAG"
+          if [ "$TAG" != "$NEW_TAG" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
       - name: Update flatpak-flutter.yml
+        if: steps.tag-diff.outputs.changed == 'true'
         env:
           FILE: flatpak-flutter.yml
           URL: https://github.com/FriesI23/mhabit.git
