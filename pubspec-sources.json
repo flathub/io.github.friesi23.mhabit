@@ -44,6 +44,20 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/animated_reorderable_list-1.3.0.tar.gz",
+        "sha256": "5de5cca556a8c9c8f7b65234ae4b683593dc6e167db498744a5e389302f24d13",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/animated_reorderable_list-1.3.0"
+    },
+    {
+        "type": "inline",
+        "contents": "5de5cca556a8c9c8f7b65234ae4b683593dc6e167db498744a5e389302f24d13",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "animated_reorderable_list-1.3.0.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://pub.dev/api/archives/animations-2.1.0.tar.gz",
         "sha256": "a8031b276f0a7986ac907195f10ca7cd04ecf2a8a566bd6dbe03018a9b02b427",
         "strip-components": 0,
