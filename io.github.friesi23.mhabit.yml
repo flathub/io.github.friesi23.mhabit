@@ -46,7 +46,7 @@ modules:
         PUB_CACHE: /run/build/mhabit/.pub-cache
     build-commands:
       - setup-flutter.sh -C .
-      - flutter build linux --release
+      - flutter build linux --release --no-pub
       - install -D $BUNDLE_PATH/mhabit /app/bin/mhabit
       - install -Dm644 assets/logo/macos.svg /app/share/icons/hicolor/scalable/apps/io.github.friesi23.mhabit.svg
       - install -Dm644 flatpak/io.github.friesi23.mhabit.metainfo.xml -t /app/share/metainfo
