@@ -57,8 +57,8 @@ modules:
       - pubspec-sources.json
       - type: git
         url: https://github.com/FriesI23/mhabit.git
-        tag: v1.23.6+145
-        commit: 3f7f741ce8d1e7c28527f7fea40e3a5ce25e3325
+        tag: v1.23.8+148
+        commit: 0377402aa9e92be22f3698d622d4017d71f16300
         disable-submodules: true
     modules:
       - flutter-sdk-3.35.7.json
