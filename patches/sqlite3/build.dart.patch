@@ -1,0 +1,53 @@
+--- a/lib/src/hook/description.dart
++++ b/lib/src/hook/description.dart
+@@ -188,23 +188,32 @@
+     );
+
+     final downloadedFile = File(p.join(dir.path, fileName));
+-    if (downloadedFile.existsSync()) {
+-      // Hook is re-run with an existing cache. Does the file match what we
+-      // expect?
+-      final (_, expectedHash) = _filenameAndHash(library);
+-      final actualHash = await downloadedFile
+-          .openRead()
+-          .transform(sha256)
+-          .first;
+-
+-      if (actualHash.toString() == expectedHash) {
+-        // We can reuse the file!
+-        return downloadedFile;
+-      }
+-    }
++    final preloadedFile = File(p.join(dir.path, library.sourceFilename));
++    final (_, expectedHash) = _filenameAndHash(library);
++
++    Future<bool> hasExpectedHash(File file) async {
++      final actualHash = await file
++          .openRead()
++          .transform(sha256)
++          .first;
++      return actualHash.toString() == expectedHash;
++    }
++
++    if (downloadedFile.existsSync() && await hasExpectedHash(downloadedFile)) {
++      // Hook is re-run with an existing cache. Reuse it.
++      return downloadedFile;
++    }
++
++    if (preloadedFile.existsSync() && await hasExpectedHash(preloadedFile)) {
++      if (preloadedFile.path != downloadedFile.path) {
++        preloadedFile.copySync(downloadedFile.path);
++      }
++      return downloadedFile;
++    }
+
+-    final tmp = File('${downloadedFile.path}.tmp');
+-    await fetch(input, output, library).cast<List<int>>().pipe(tmp.openWrite());
+-    tmp.renameSync(downloadedFile.path);
+-    return downloadedFile;
++    throw StateError(
++      'Expected a preloaded SQLite binary at ${preloadedFile.path} '
++      'with sha256 $expectedHash. This Flatpak patch disables '
++      'network downloads for sqlite3.',
++    );
+   }
