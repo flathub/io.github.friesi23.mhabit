@@ -18,16 +18,16 @@ jobs:
       patch-name: ${{ env.PATCH_NAME }}
       changed: ${{ steps.diff.outputs.changed }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           repository: flathub/io.github.friesi23.mhabit
           ref: master
           token: ${{ secrets.AUTO_CI_TOKEN }}
-      - uses: sersoft-gmbh/setup-gh-cli-action@v2
+      - uses: sersoft-gmbh/setup-gh-cli-action@v3
         with:
           version: stable
           github-token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.10"
       - run: |
@@ -105,7 +105,7 @@ jobs:
           rm -fr assets
       - name: Create PR
         if: steps.diff.outputs.changed == 'true'
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.AUTO_CI_TOKEN }}
           commit-message: "chore: bump version to ${{ steps.release-info.outputs.tag }}"
