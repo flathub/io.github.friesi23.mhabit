@@ -3994,8 +3994,8 @@
         "only-arches": [
             "x86_64"
         ],
-        "url": "https://github.com/simolus3/sqlite3.dart/releases/download/sqlite3-3.3.1/libsqlite3.x64.linux.so",
-        "sha256": "148c51687ac3be3487873845690ddbf3d8ee099a5521a193c856008907fb7361",
+        "url": "https://github.com/simolus3/sqlite3.dart/releases/download/sqlite3-3.3.2/libsqlite3.x64.linux.so",
+        "sha256": "9b1c8c24c3cec49156bd8458e2c4eb01401a8a98375df1396ebb657c1e78512b",
         "dest": "./.dart_tool/hooks_runner/shared/sqlite3/build/download-static"
     },
     {
@@ -4003,18 +4003,18 @@
         "only-arches": [
             "aarch64"
         ],
-        "url": "https://github.com/simolus3/sqlite3.dart/releases/download/sqlite3-3.3.1/libsqlite3.arm64.linux.so",
-        "sha256": "0541443d38cd79160f6262e6a59892657d640459fef8acdd1f4f29a4ed0d2612",
+        "url": "https://github.com/simolus3/sqlite3.dart/releases/download/sqlite3-3.3.2/libsqlite3.arm64.linux.so",
+        "sha256": "477d88716f2d9ca6c25c3365832c0a29f5a2def597bb9293ad085e643ce233ac",
         "dest": "./.dart_tool/hooks_runner/shared/sqlite3/build/download-static"
     },
     {
         "type": "patch",
         "path": "generated/patches/sqlite3/assets.dart.patch",
-        "dest": "./.pub-cache/hosted/pub.dev/sqlite3-3.3.1"
+        "dest": "./.pub-cache/hosted/pub.dev/sqlite3-3.3.2"
     },
     {
         "type": "patch",
         "path": "patches/sqlite3/build.dart.patch",
-        "dest": "./.pub-cache/hosted/pub.dev/sqlite3-3.3.1"
+        "dest": "./.pub-cache/hosted/pub.dev/sqlite3-3.3.2"
     }
 ]
