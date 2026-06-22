@@ -912,16 +912,30 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_colorpicker-1.1.0.tar.gz",
-        "sha256": "969de5f6f9e2a570ac660fb7b501551451ea2a1ab9e2097e89475f60e07816ea",
+        "url": "https://pub.dev/api/archives/flex_color_picker-3.8.0.tar.gz",
+        "sha256": "a0979dd61f21b634717b98eb4ceaed2bfe009fe020ce8597aaf164b9eeb57aaa",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_colorpicker-1.1.0"
+        "dest": ".pub-cache/hosted/pub.dev/flex_color_picker-3.8.0"
     },
     {
         "type": "inline",
-        "contents": "969de5f6f9e2a570ac660fb7b501551451ea2a1ab9e2097e89475f60e07816ea",
+        "contents": "a0979dd61f21b634717b98eb4ceaed2bfe009fe020ce8597aaf164b9eeb57aaa",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_colorpicker-1.1.0.sha256"
+        "dest-filename": "flex_color_picker-3.8.0.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/flex_seed_scheme-4.0.1.tar.gz",
+        "sha256": "a3183753bbcfc3af106224bff3ab3e1844b73f58062136b7499919f49f3667e7",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/flex_seed_scheme-4.0.1"
+    },
+    {
+        "type": "inline",
+        "contents": "a3183753bbcfc3af106224bff3ab3e1844b73f58062136b7499919f49f3667e7",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "flex_seed_scheme-4.0.1.sha256"
     },
     {
         "type": "archive",
