@@ -1,5 +1,5 @@
---- a/lib/src/hook/description.dart
-+++ b/lib/src/hook/description.dart
+--- a/lib/src/hook/compile/description.dart
++++ b/lib/src/hook/compile/description.dart
 @@ -188,23 +188,32 @@
      );
 
@@ -7,7 +7,7 @@
 -    if (downloadedFile.existsSync()) {
 -      // Hook is re-run with an existing cache. Does the file match what we
 -      // expect?
--      final (_, expectedHash) = _filenameAndHash(library);
+-      final expectedHash = library.contentSha256Hash;
 -      final actualHash = await downloadedFile
 -          .openRead()
 -          .transform(sha256)
@@ -19,7 +19,7 @@
 -      }
 -    }
 +    final preloadedFile = File(p.join(dir.path, library.sourceFilename));
-+    final (_, expectedHash) = _filenameAndHash(library);
++    final expectedHash = library.contentSha256Hash;
 +
 +    Future<bool> hasExpectedHash(File file) async {
 +      final actualHash = await file
