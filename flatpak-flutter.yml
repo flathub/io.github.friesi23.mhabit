@@ -56,10 +56,10 @@ modules:
     sources:
       - type: git
         url: https://github.com/FriesI23/mhabit.git
-        tag: v1.24.2+156
-        commit: bea05a7b4b6c4ec33d091f52405ca1e48d0e8587
+        branch: chore/flutter-upgrade-3-44
+        commit: 70bada383141d2e7e44603244d9747a60ad684d4
         disable-submodules: true
       - type: git
         url: https://github.com/flutter/flutter.git
-        tag: 3.41.9
+        tag: 3.44.9
         dest: flutter

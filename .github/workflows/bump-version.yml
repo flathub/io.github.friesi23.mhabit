@@ -12,7 +12,7 @@ jobs:
     env:
       OWNER: FriesI23
       REPO: mhabit
-      FLATPAK_FLUTTER_VERSION: 0.14.1
+      FLATPAK_FLUTTER_VERSION: 0.15.0
       PATCH_NAME: changes.patch
     outputs:
       patch-name: ${{ env.PATCH_NAME }}
@@ -38,6 +38,7 @@ jobs:
           mv flatpak-flutter-${{ env.FLATPAK_FLUTTER_VERSION }} flatpak-flutter
       - run: |
           python -m pip install --upgrade pip
+          pip install PyYAML
           pip install -r ../flatpak-flutter/requirements.txt
       - name: Get Latest Release
         id: release-info
@@ -95,6 +96,7 @@ jobs:
       - name: Check for changes
         id: diff
         run: |
+          python3 scripts/update-sqlite3-foreign.py
           git diff --quiet || echo "changed=true" >> $GITHUB_OUTPUT
       - name: Build Flatpak Flutter
         if: steps.diff.outputs.changed == 'true'
