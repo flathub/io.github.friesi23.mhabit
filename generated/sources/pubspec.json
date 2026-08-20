@@ -2,30 +2,30 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/_fe_analyzer_shared-93.0.0.tar.gz",
-        "sha256": "8d7ff3948166b8ec5da0fbb5962000926b8e02f2ed9b3e51d1738905fbd4c98d",
+        "url": "https://pub.dev/api/archives/_fe_analyzer_shared-99.0.0.tar.gz",
+        "sha256": "a49d6cf99e8d8e7a8e93668d09ced0bbdb954d0b4fccc2f5f9241c6b87fad95c",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/_fe_analyzer_shared-93.0.0"
+        "dest": ".pub-cache/hosted/pub.dev/_fe_analyzer_shared-99.0.0"
     },
     {
         "type": "inline",
-        "contents": "8d7ff3948166b8ec5da0fbb5962000926b8e02f2ed9b3e51d1738905fbd4c98d",
+        "contents": "a49d6cf99e8d8e7a8e93668d09ced0bbdb954d0b4fccc2f5f9241c6b87fad95c",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "_fe_analyzer_shared-93.0.0.sha256"
+        "dest-filename": "_fe_analyzer_shared-99.0.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/analyzer-10.0.1.tar.gz",
-        "sha256": "de7148ed2fcec579b19f122c1800933dfa028f6d9fd38a152b04b1516cec120b",
+        "url": "https://pub.dev/api/archives/analyzer-12.1.0.tar.gz",
+        "sha256": "663efa951fb8a45e06f491223a604c93820598f20e6a99c25617a1576065e8b7",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/analyzer-10.0.1"
+        "dest": ".pub-cache/hosted/pub.dev/analyzer-12.1.0"
     },
     {
         "type": "inline",
-        "contents": "de7148ed2fcec579b19f122c1800933dfa028f6d9fd38a152b04b1516cec120b",
+        "contents": "663efa951fb8a45e06f491223a604c93820598f20e6a99c25617a1576065e8b7",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "analyzer-10.0.1.sha256"
+        "dest-filename": "analyzer-12.1.0.sha256"
     },
     {
         "type": "archive",
@@ -58,16 +58,30 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/animations-2.2.0.tar.gz",
-        "sha256": "9cb469212ea51be27097f23b519d594c01171721347b55df9334fff653659e7f",
+        "url": "https://pub.dev/api/archives/animations-3.0.0.tar.gz",
+        "sha256": "5ec868ffa78851e6f3f32e9377b780c7ae2087a5523d8b5e6df59bd8287ac5dd",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/animations-2.2.0"
+        "dest": ".pub-cache/hosted/pub.dev/animations-3.0.0"
     },
     {
         "type": "inline",
-        "contents": "9cb469212ea51be27097f23b519d594c01171721347b55df9334fff653659e7f",
+        "contents": "5ec868ffa78851e6f3f32e9377b780c7ae2087a5523d8b5e6df59bd8287ac5dd",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "animations-2.2.0.sha256"
+        "dest-filename": "animations-3.0.0.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/ansi_styles-0.3.2+1.tar.gz",
+        "sha256": "9c656cc12b3c27b17dd982b2cc5c0cfdfbdabd7bc8f3ae5e8542d9867b47ce8a",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/ansi_styles-0.3.2+1"
+    },
+    {
+        "type": "inline",
+        "contents": "9c656cc12b3c27b17dd982b2cc5c0cfdfbdabd7bc8f3ae5e8542d9867b47ce8a",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "ansi_styles-0.3.2+1.sha256"
     },
     {
         "type": "archive",
@@ -86,30 +100,30 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/app_settings-7.0.0.tar.gz",
-        "sha256": "64d50e666fd96ae90301bf71205f05019286f940ad6f5fed3d1be19c6af7546a",
+        "url": "https://pub.dev/api/archives/app_settings-9.0.0.tar.gz",
+        "sha256": "880b7086bd6789ff9cf1b027d68349ba4c2c933ea25c0ff120d340bfe496629d",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/app_settings-7.0.0"
+        "dest": ".pub-cache/hosted/pub.dev/app_settings-9.0.0"
     },
     {
         "type": "inline",
-        "contents": "64d50e666fd96ae90301bf71205f05019286f940ad6f5fed3d1be19c6af7546a",
+        "contents": "880b7086bd6789ff9cf1b027d68349ba4c2c933ea25c0ff120d340bfe496629d",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "app_settings-7.0.0.sha256"
+        "dest-filename": "app_settings-9.0.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/archive-4.0.9.tar.gz",
-        "sha256": "a96e8b390886ee8abb49b7bd3ac8df6f451c621619f52a26e815fdcf568959ff",
+        "url": "https://pub.dev/api/archives/archive-4.1.0.tar.gz",
+        "sha256": "be169cf6ac481e052c4538715d88841d567150dfe1df38aaec76461a4e7b39f2",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/archive-4.0.9"
+        "dest": ".pub-cache/hosted/pub.dev/archive-4.1.0"
     },
     {
         "type": "inline",
-        "contents": "a96e8b390886ee8abb49b7bd3ac8df6f451c621619f52a26e815fdcf568959ff",
+        "contents": "be169cf6ac481e052c4538715d88841d567150dfe1df38aaec76461a4e7b39f2",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "archive-4.0.9.sha256"
+        "dest-filename": "archive-4.1.0.sha256"
     },
     {
         "type": "archive",
@@ -156,58 +170,58 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/build-4.0.6.tar.gz",
-        "sha256": "a156715e7cd728130c592f30552575908aae5b100005fbc1f0fb16b3c03a3d10",
+        "url": "https://pub.dev/api/archives/build-4.0.7.tar.gz",
+        "sha256": "45d14a0fb23e018d8287c32fc98d726ce466b231928ed9b9200f29bd3ccd39ae",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/build-4.0.6"
+        "dest": ".pub-cache/hosted/pub.dev/build-4.0.7"
     },
     {
         "type": "inline",
-        "contents": "a156715e7cd728130c592f30552575908aae5b100005fbc1f0fb16b3c03a3d10",
+        "contents": "45d14a0fb23e018d8287c32fc98d726ce466b231928ed9b9200f29bd3ccd39ae",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "build-4.0.6.sha256"
+        "dest-filename": "build-4.0.7.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/build_config-1.3.0.tar.gz",
-        "sha256": "4070d2a59f8eec34c97c86ceb44403834899075f66e8a9d59706f8e7834f6f71",
+        "url": "https://pub.dev/api/archives/build_config-1.3.2.tar.gz",
+        "sha256": "94eaf6708fe64408c632ef2689ca3777b112f9421306ccf4f8c84d7c5c9f83f8",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/build_config-1.3.0"
+        "dest": ".pub-cache/hosted/pub.dev/build_config-1.3.2"
     },
     {
         "type": "inline",
-        "contents": "4070d2a59f8eec34c97c86ceb44403834899075f66e8a9d59706f8e7834f6f71",
+        "contents": "94eaf6708fe64408c632ef2689ca3777b112f9421306ccf4f8c84d7c5c9f83f8",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "build_config-1.3.0.sha256"
+        "dest-filename": "build_config-1.3.2.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/build_daemon-4.1.1.tar.gz",
-        "sha256": "bf05f6e12cfea92d3c09308d7bcdab1906cd8a179b023269eed00c071004b957",
+        "url": "https://pub.dev/api/archives/build_daemon-4.1.5.tar.gz",
+        "sha256": "79e05eaf15a48d7230b053a4363b8eaac0cc234bbd0134c3229455481f55cbc6",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/build_daemon-4.1.1"
+        "dest": ".pub-cache/hosted/pub.dev/build_daemon-4.1.5"
     },
     {
         "type": "inline",
-        "contents": "bf05f6e12cfea92d3c09308d7bcdab1906cd8a179b023269eed00c071004b957",
+        "contents": "79e05eaf15a48d7230b053a4363b8eaac0cc234bbd0134c3229455481f55cbc6",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "build_daemon-4.1.1.sha256"
+        "dest-filename": "build_daemon-4.1.5.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/build_runner-2.15.0.tar.gz",
-        "sha256": "1523ce62448ebac2c15a8ba5fbad8acac169788658a7dd2a1c2d9c2a9318b9a6",
+        "url": "https://pub.dev/api/archives/build_runner-2.15.1.tar.gz",
+        "sha256": "5367e521935b102bdf1e735d2aab461e36b2edca6517662d088dd04cc39f8d16",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/build_runner-2.15.0"
+        "dest": ".pub-cache/hosted/pub.dev/build_runner-2.15.1"
     },
     {
         "type": "inline",
-        "contents": "1523ce62448ebac2c15a8ba5fbad8acac169788658a7dd2a1c2d9c2a9318b9a6",
+        "contents": "5367e521935b102bdf1e735d2aab461e36b2edca6517662d088dd04cc39f8d16",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "build_runner-2.15.0.sha256"
+        "dest-filename": "build_runner-2.15.1.sha256"
     },
     {
         "type": "archive",
@@ -226,16 +240,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/built_value-8.12.6.tar.gz",
-        "sha256": "34e4067d30ce212937df995f03b69992eea683539ceeac7f679a1f1eba055b56",
+        "url": "https://pub.dev/api/archives/built_value-8.12.7.tar.gz",
+        "sha256": "31b24be6615ec7fcf70b3aa5a7469fe35826485e639a16dd7eb83ba30e4cc6a8",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/built_value-8.12.6"
+        "dest": ".pub-cache/hosted/pub.dev/built_value-8.12.7"
     },
     {
         "type": "inline",
-        "contents": "34e4067d30ce212937df995f03b69992eea683539ceeac7f679a1f1eba055b56",
+        "contents": "31b24be6615ec7fcf70b3aa5a7469fe35826485e639a16dd7eb83ba30e4cc6a8",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "built_value-8.12.6.sha256"
+        "dest-filename": "built_value-8.12.7.sha256"
     },
     {
         "type": "archive",
@@ -250,6 +264,20 @@
         "contents": "faf38497bda5ead2a8c7615f4f7939df04333478bf32e4173fcb06d428b5716b",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "characters-1.4.1.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/charcode-1.4.0.tar.gz",
+        "sha256": "fb0f1107cac15a5ea6ef0a6ef71a807b9e4267c713bb93e00e92d737cc8dbd8a",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/charcode-1.4.0"
+    },
+    {
+        "type": "inline",
+        "contents": "fb0f1107cac15a5ea6ef0a6ef71a807b9e4267c713bb93e00e92d737cc8dbd8a",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "charcode-1.4.0.sha256"
     },
     {
         "type": "archive",
@@ -282,6 +310,20 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/cli_launcher-0.3.3+2.tar.gz",
+        "sha256": "96883f87648524292e24e2cc6a369fbdf64883473fe3e3ddadd3d857bf16a484",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/cli_launcher-0.3.3+2"
+    },
+    {
+        "type": "inline",
+        "contents": "96883f87648524292e24e2cc6a369fbdf64883473fe3e3ddadd3d857bf16a484",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "cli_launcher-0.3.3+2.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://pub.dev/api/archives/cli_util-0.4.2.tar.gz",
         "sha256": "ff6785f7e9e3c38ac98b2fb035701789de90154024a75b6cb926445e83197d1c",
         "strip-components": 0,
@@ -310,16 +352,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/code_assets-1.0.0.tar.gz",
-        "sha256": "83ccdaa064c980b5596c35dd64a8d3ecc68620174ab9b90b6343b753aa721687",
+        "url": "https://pub.dev/api/archives/code_assets-1.2.1.tar.gz",
+        "sha256": "bf394f466ba9205f1812a0433b392d6af280f155f56651eda7c18cc32ed493b8",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/code_assets-1.0.0"
+        "dest": ".pub-cache/hosted/pub.dev/code_assets-1.2.1"
     },
     {
         "type": "inline",
-        "contents": "83ccdaa064c980b5596c35dd64a8d3ecc68620174ab9b90b6343b753aa721687",
+        "contents": "bf394f466ba9205f1812a0433b392d6af280f155f56651eda7c18cc32ed493b8",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "code_assets-1.0.0.sha256"
+        "dest-filename": "code_assets-1.2.1.sha256"
     },
     {
         "type": "archive",
@@ -366,16 +408,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/connectivity_plus-7.1.1.tar.gz",
-        "sha256": "62ffa266d9a23b79fb3fcbc206afc00bb979417ba57b1324c546b5aab95ba057",
+        "url": "https://pub.dev/api/archives/connectivity_plus-7.3.1.tar.gz",
+        "sha256": "762c99f890ca8bf87f7337236f99edd42793843bc6c3631da294a76653a54bd0",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/connectivity_plus-7.1.1"
+        "dest": ".pub-cache/hosted/pub.dev/connectivity_plus-7.3.1"
     },
     {
         "type": "inline",
-        "contents": "62ffa266d9a23b79fb3fcbc206afc00bb979417ba57b1324c546b5aab95ba057",
+        "contents": "762c99f890ca8bf87f7337236f99edd42793843bc6c3631da294a76653a54bd0",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "connectivity_plus-7.1.1.sha256"
+        "dest-filename": "connectivity_plus-7.3.1.sha256"
     },
     {
         "type": "archive",
@@ -408,6 +450,20 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/conventional_commit-0.6.1+1.tar.gz",
+        "sha256": "c40b1b449ce2a63fa2ce852f35e3890b1e182f5951819934c0e4a66254bc0dc3",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/conventional_commit-0.6.1+1"
+    },
+    {
+        "type": "inline",
+        "contents": "c40b1b449ce2a63fa2ce852f35e3890b1e182f5951819934c0e4a66254bc0dc3",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "conventional_commit-0.6.1+1.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://pub.dev/api/archives/convert-3.1.2.tar.gz",
         "sha256": "b30acd5944035672bc15c6b7a8b47d773e41e2f17de064350988c5d02adb1c68",
         "strip-components": 0,
@@ -422,58 +478,58 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/copy_with_extension-15.0.1.tar.gz",
-        "sha256": "4e37b3a0376fc7e981be911efba812845c75447b0d17c931faca9d972d335d1d",
+        "url": "https://pub.dev/api/archives/copy_with_extension-17.0.0.tar.gz",
+        "sha256": "f8d465fab12f83d597a56aa1b1dc7e493cf7579509f75fc4929b355612293f07",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/copy_with_extension-15.0.1"
+        "dest": ".pub-cache/hosted/pub.dev/copy_with_extension-17.0.0"
     },
     {
         "type": "inline",
-        "contents": "4e37b3a0376fc7e981be911efba812845c75447b0d17c931faca9d972d335d1d",
+        "contents": "f8d465fab12f83d597a56aa1b1dc7e493cf7579509f75fc4929b355612293f07",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "copy_with_extension-15.0.1.sha256"
+        "dest-filename": "copy_with_extension-17.0.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/copy_with_extension_gen-15.0.1.tar.gz",
-        "sha256": "f2845406e5718db6b008716be1caa2500ea6297da8d4151b0b495b30e9586465",
+        "url": "https://pub.dev/api/archives/copy_with_extension_gen-17.0.0.tar.gz",
+        "sha256": "f6f68f0bfa819d730b248edddeb93ca0fc72a3016eb26a8d7d08649165779ccf",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/copy_with_extension_gen-15.0.1"
+        "dest": ".pub-cache/hosted/pub.dev/copy_with_extension_gen-17.0.0"
     },
     {
         "type": "inline",
-        "contents": "f2845406e5718db6b008716be1caa2500ea6297da8d4151b0b495b30e9586465",
+        "contents": "f6f68f0bfa819d730b248edddeb93ca0fc72a3016eb26a8d7d08649165779ccf",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "copy_with_extension_gen-15.0.1.sha256"
+        "dest-filename": "copy_with_extension_gen-17.0.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/coverage-1.15.0.tar.gz",
-        "sha256": "5da775aa218eaf2151c721b16c01c7676fbfdd99cebba2bf64e8b807a28ff94d",
+        "url": "https://pub.dev/api/archives/coverage-1.15.1.tar.gz",
+        "sha256": "956a3de0725ca232ad353565a8290d3357592bf4250f6f298a185e2d949c5d3d",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/coverage-1.15.0"
+        "dest": ".pub-cache/hosted/pub.dev/coverage-1.15.1"
     },
     {
         "type": "inline",
-        "contents": "5da775aa218eaf2151c721b16c01c7676fbfdd99cebba2bf64e8b807a28ff94d",
+        "contents": "956a3de0725ca232ad353565a8290d3357592bf4250f6f298a185e2d949c5d3d",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "coverage-1.15.0.sha256"
+        "dest-filename": "coverage-1.15.1.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/cross_file-0.3.5+2.tar.gz",
-        "sha256": "28bb3ae56f117b5aec029d702a90f57d285cd975c3c5c281eaca38dbc47c5937",
+        "url": "https://pub.dev/api/archives/cross_file-0.3.5+4.tar.gz",
+        "sha256": "92c9c43c383bfa1c32079d3bc492d55d6d4318044b7b47edaff8971cbb555c51",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/cross_file-0.3.5+2"
+        "dest": ".pub-cache/hosted/pub.dev/cross_file-0.3.5+4"
     },
     {
         "type": "inline",
-        "contents": "28bb3ae56f117b5aec029d702a90f57d285cd975c3c5c281eaca38dbc47c5937",
+        "contents": "92c9c43c383bfa1c32079d3bc492d55d6d4318044b7b47edaff8971cbb555c51",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "cross_file-0.3.5+2.sha256"
+        "dest-filename": "cross_file-0.3.5+4.sha256"
     },
     {
         "type": "archive",
@@ -492,20 +548,6 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/cryptofont-1.0.2+1.tar.gz",
-        "sha256": "a7a6264e4148f5e6aa8c5953c8b15839d831f5205a9138e0aa3e8902d2af6d77",
-        "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/cryptofont-1.0.2+1"
-    },
-    {
-        "type": "inline",
-        "contents": "a7a6264e4148f5e6aa8c5953c8b15839d831f5205a9138e0aa3e8902d2af6d77",
-        "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "cryptofont-1.0.2+1.sha256"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
         "url": "https://pub.dev/api/archives/csslib-1.0.2.tar.gz",
         "sha256": "09bad715f418841f976c77db72d5398dc1253c21fb9c0c7f0b0b985860b2d58e",
         "strip-components": 0,
@@ -516,6 +558,20 @@
         "contents": "09bad715f418841f976c77db72d5398dc1253c21fb9c0c7f0b0b985860b2d58e",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "csslib-1.0.2.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/csv-8.0.0.tar.gz",
+        "sha256": "2e0a52fb729f2faacd19c9c0c954ff450bba37aa8ab999410309e2342e7013a2",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/csv-8.0.0"
+    },
+    {
+        "type": "inline",
+        "contents": "2e0a52fb729f2faacd19c9c0c954ff450bba37aa8ab999410309e2342e7013a2",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "csv-8.0.0.sha256"
     },
     {
         "type": "archive",
@@ -534,16 +590,30 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/dart_style-3.1.7.tar.gz",
-        "sha256": "29f7ecc274a86d32920b1d9cfc7502fa87220da41ec60b55f329559d5732e2b2",
+        "url": "https://pub.dev/api/archives/cupertino_ui-1.0.0.tar.gz",
+        "sha256": "7ed8ce4159d342eec4c65f4ea6eec57adaf9365404378541f38efc1da20a5b3d",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/dart_style-3.1.7"
+        "dest": ".pub-cache/hosted/pub.dev/cupertino_ui-1.0.0"
     },
     {
         "type": "inline",
-        "contents": "29f7ecc274a86d32920b1d9cfc7502fa87220da41ec60b55f329559d5732e2b2",
+        "contents": "7ed8ce4159d342eec4c65f4ea6eec57adaf9365404378541f38efc1da20a5b3d",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "dart_style-3.1.7.sha256"
+        "dest-filename": "cupertino_ui-1.0.0.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/dart_style-3.1.8.tar.gz",
+        "sha256": "a4c1ccfee44c7e75ed80484071a5c142a385345e658fd8bd7c4b5c97e7198f98",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/dart_style-3.1.8"
+    },
+    {
+        "type": "inline",
+        "contents": "a4c1ccfee44c7e75ed80484071a5c142a385345e658fd8bd7c4b5c97e7198f98",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "dart_style-3.1.8.sha256"
     },
     {
         "type": "archive",
@@ -560,46 +630,45 @@
         "dest-filename": "dartx-1.2.0.sha256"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/data_saver-0.4.0.tar.gz",
-        "sha256": "5e1634495e52c163ba02e3840a7ace20f292de418c3cb059b9aef35505edafcb",
-        "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/data_saver-0.4.0"
+        "type": "git",
+        "url": "https://github.com/FriesI23/data_saver.git",
+        "commit": "6498902702b48139282a79c064b1ac385f00be80",
+        "dest": ".pub-cache/git/data_saver-6498902702b48139282a79c064b1ac385f00be80"
     },
     {
-        "type": "inline",
-        "contents": "5e1634495e52c163ba02e3840a7ace20f292de418c3cb059b9aef35505edafcb",
-        "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "data_saver-0.4.0.sha256"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/dbus-0.7.12.tar.gz",
-        "sha256": "d0c98dcd4f5169878b6cf8f6e0a52403a9dff371a3e2f019697accbf6f44a270",
-        "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/dbus-0.7.12"
-    },
-    {
-        "type": "inline",
-        "contents": "d0c98dcd4f5169878b6cf8f6e0a52403a9dff371a3e2f019697accbf6f44a270",
-        "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "dbus-0.7.12.sha256"
+        "type": "shell",
+        "commands": [
+            "mkdir -p .pub-cache/git/cache/data_saver-bb7caec474f5c16131344a28a7704b2d6907eb68",
+            "cp -rf .pub-cache/git/data_saver-6498902702b48139282a79c064b1ac385f00be80/.git/* .pub-cache/git/cache/data_saver-bb7caec474f5c16131344a28a7704b2d6907eb68"
+        ]
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/device_info_plus-13.1.0.tar.gz",
-        "sha256": "6a642e1daa10190af89ba6cb6386c0df7d071a3592080bfe1e44faa63ae1df65",
+        "url": "https://pub.dev/api/archives/dbus-0.7.15.tar.gz",
+        "sha256": "a48d5da28e89bd02196e80d81ed8d7954923d00a0f4a68cc20b575038f023383",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/device_info_plus-13.1.0"
+        "dest": ".pub-cache/hosted/pub.dev/dbus-0.7.15"
     },
     {
         "type": "inline",
-        "contents": "6a642e1daa10190af89ba6cb6386c0df7d071a3592080bfe1e44faa63ae1df65",
+        "contents": "a48d5da28e89bd02196e80d81ed8d7954923d00a0f4a68cc20b575038f023383",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "device_info_plus-13.1.0.sha256"
+        "dest-filename": "dbus-0.7.15.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/device_info_plus-13.2.0.tar.gz",
+        "sha256": "0891702f96b2e465fe567b7ec448380e6b1c14f60af552a8536d9f583b6b8442",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/device_info_plus-13.2.0"
+    },
+    {
+        "type": "inline",
+        "contents": "0891702f96b2e465fe567b7ec448380e6b1c14f60af552a8536d9f583b6b8442",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "device_info_plus-13.2.0.sha256"
     },
     {
         "type": "archive",
@@ -632,30 +701,30 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/dynamic_color-1.8.1.tar.gz",
-        "sha256": "43a5a6679649a7731ab860334a5812f2067c2d9ce6452cf069c5e0c25336c17c",
+        "url": "https://pub.dev/api/archives/dynamic_color-1.9.0.tar.gz",
+        "sha256": "4aeb76de323e8eb660bab5557d826ad7ebbf1434a598f0c6aa8a11a9696a6757",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/dynamic_color-1.8.1"
+        "dest": ".pub-cache/hosted/pub.dev/dynamic_color-1.9.0"
     },
     {
         "type": "inline",
-        "contents": "43a5a6679649a7731ab860334a5812f2067c2d9ce6452cf069c5e0c25336c17c",
+        "contents": "4aeb76de323e8eb660bab5557d826ad7ebbf1434a598f0c6aa8a11a9696a6757",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "dynamic_color-1.8.1.sha256"
+        "dest-filename": "dynamic_color-1.9.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/equatable-2.0.8.tar.gz",
-        "sha256": "3e0141505477fd8ad55d6eb4e7776d3fe8430be8e497ccb1521370c3f21a3e2b",
+        "url": "https://pub.dev/api/archives/equatable-2.1.0.tar.gz",
+        "sha256": "3bce007a596ff8b3119c45d68aaef631272537c03d30e5d4534dd24bf4c5eaa2",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/equatable-2.0.8"
+        "dest": ".pub-cache/hosted/pub.dev/equatable-2.1.0"
     },
     {
         "type": "inline",
-        "contents": "3e0141505477fd8ad55d6eb4e7776d3fe8430be8e497ccb1521370c3f21a3e2b",
+        "contents": "3bce007a596ff8b3119c45d68aaef631272537c03d30e5d4534dd24bf4c5eaa2",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "equatable-2.0.8.sha256"
+        "dest-filename": "equatable-2.1.0.sha256"
     },
     {
         "type": "archive",
@@ -730,16 +799,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/file_selector_android-0.5.2+6.tar.gz",
-        "sha256": "89243030ea4b3463fb402b44d5eeacc4ccb1c46a88870cb2a5080d693200c1ed",
+        "url": "https://pub.dev/api/archives/file_selector_android-0.5.2+9.tar.gz",
+        "sha256": "1d45e9910f68c16eb0c74f0b10097ad81aed516ea28054c027137e8f7d75e840",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/file_selector_android-0.5.2+6"
+        "dest": ".pub-cache/hosted/pub.dev/file_selector_android-0.5.2+9"
     },
     {
         "type": "inline",
-        "contents": "89243030ea4b3463fb402b44d5eeacc4ccb1c46a88870cb2a5080d693200c1ed",
+        "contents": "1d45e9910f68c16eb0c74f0b10097ad81aed516ea28054c027137e8f7d75e840",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "file_selector_android-0.5.2+6.sha256"
+        "dest-filename": "file_selector_android-0.5.2+9.sha256"
     },
     {
         "type": "archive",
@@ -800,16 +869,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/file_selector_web-0.9.4+2.tar.gz",
-        "sha256": "c4c0ea4224d97a60a7067eca0c8fd419e708ff830e0c83b11a48faf566cec3e7",
+        "url": "https://pub.dev/api/archives/file_selector_web-0.9.5.tar.gz",
+        "sha256": "73181fbc5257776d8ecaa6a94ab3c8e920ad143b9132a6d984a9271dfc6928d3",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/file_selector_web-0.9.4+2"
+        "dest": ".pub-cache/hosted/pub.dev/file_selector_web-0.9.5"
     },
     {
         "type": "inline",
-        "contents": "c4c0ea4224d97a60a7067eca0c8fd419e708ff830e0c83b11a48faf566cec3e7",
+        "contents": "73181fbc5257776d8ecaa6a94ab3c8e920ad143b9132a6d984a9271dfc6928d3",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "file_selector_web-0.9.4+2.sha256"
+        "dest-filename": "file_selector_web-0.9.5.sha256"
     },
     {
         "type": "archive",
@@ -856,72 +925,72 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_colorpicker-1.1.0.tar.gz",
-        "sha256": "969de5f6f9e2a570ac660fb7b501551451ea2a1ab9e2097e89475f60e07816ea",
+        "url": "https://pub.dev/api/archives/flex_color_picker-3.8.0.tar.gz",
+        "sha256": "a0979dd61f21b634717b98eb4ceaed2bfe009fe020ce8597aaf164b9eeb57aaa",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_colorpicker-1.1.0"
+        "dest": ".pub-cache/hosted/pub.dev/flex_color_picker-3.8.0"
     },
     {
         "type": "inline",
-        "contents": "969de5f6f9e2a570ac660fb7b501551451ea2a1ab9e2097e89475f60e07816ea",
+        "contents": "a0979dd61f21b634717b98eb4ceaed2bfe009fe020ce8597aaf164b9eeb57aaa",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_colorpicker-1.1.0.sha256"
+        "dest-filename": "flex_color_picker-3.8.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_donation_buttons-0.4.10.tar.gz",
-        "sha256": "e55538512f81fbc8abbf908452f9f260e10b91936357eb47bc98fb982d708270",
+        "url": "https://pub.dev/api/archives/flex_seed_scheme-4.0.1.tar.gz",
+        "sha256": "a3183753bbcfc3af106224bff3ab3e1844b73f58062136b7499919f49f3667e7",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_donation_buttons-0.4.10"
+        "dest": ".pub-cache/hosted/pub.dev/flex_seed_scheme-4.0.1"
     },
     {
         "type": "inline",
-        "contents": "e55538512f81fbc8abbf908452f9f260e10b91936357eb47bc98fb982d708270",
+        "contents": "a3183753bbcfc3af106224bff3ab3e1844b73f58062136b7499919f49f3667e7",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_donation_buttons-0.4.10.sha256"
+        "dest-filename": "flex_seed_scheme-4.0.1.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_gen-5.14.1.tar.gz",
-        "sha256": "303d72d4ee86f29243792e4022b67a47737f28f268d45348cb97b31a52e85887",
+        "url": "https://pub.dev/api/archives/flutter_gen-5.15.0.tar.gz",
+        "sha256": "b2ffc4a2653baffc5bccd42a5d8631c7b71d7e57ded1de0c2dbdfcc5c4690dc1",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_gen-5.14.1"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_gen-5.15.0"
     },
     {
         "type": "inline",
-        "contents": "303d72d4ee86f29243792e4022b67a47737f28f268d45348cb97b31a52e85887",
+        "contents": "b2ffc4a2653baffc5bccd42a5d8631c7b71d7e57ded1de0c2dbdfcc5c4690dc1",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_gen-5.14.1.sha256"
+        "dest-filename": "flutter_gen-5.15.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_gen_core-5.14.1.tar.gz",
-        "sha256": "1413fbd0b67f76ac17800989013438caec3b64564c9ffd1eea6cd7e170d9b0e5",
+        "url": "https://pub.dev/api/archives/flutter_gen_core-5.15.0.tar.gz",
+        "sha256": "8ccb1f809642b34eb4857d8d7c4e5b41430a8cba8206177aae2ffe9d72b5eef3",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_gen_core-5.14.1"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_gen_core-5.15.0"
     },
     {
         "type": "inline",
-        "contents": "1413fbd0b67f76ac17800989013438caec3b64564c9ffd1eea6cd7e170d9b0e5",
+        "contents": "8ccb1f809642b34eb4857d8d7c4e5b41430a8cba8206177aae2ffe9d72b5eef3",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_gen_core-5.14.1.sha256"
+        "dest-filename": "flutter_gen_core-5.15.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_gen_runner-5.14.1.tar.gz",
-        "sha256": "db00922dd5f4c1aa33aeab7f74117f1cd224e7a1e8bea1e312b8d09b8101a909",
+        "url": "https://pub.dev/api/archives/flutter_gen_runner-5.15.0.tar.gz",
+        "sha256": "2b0fff517a75a14ed2eff749c1da2d6b8b568e542ad2b1c967356669a4c29bb2",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_gen_runner-5.14.1"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_gen_runner-5.15.0"
     },
     {
         "type": "inline",
-        "contents": "db00922dd5f4c1aa33aeab7f74117f1cd224e7a1e8bea1e312b8d09b8101a909",
+        "contents": "2b0fff517a75a14ed2eff749c1da2d6b8b568e542ad2b1c967356669a4c29bb2",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_gen_runner-5.14.1.sha256"
+        "dest-filename": "flutter_gen_runner-5.15.0.sha256"
     },
     {
         "type": "archive",
@@ -968,128 +1037,156 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_local_notifications-21.0.0.tar.gz",
-        "sha256": "0d9035862236fe38250fe1644d7ed3b8254e34a21b2c837c9f539fbb3bba5ef1",
+        "url": "https://pub.dev/api/archives/flutter_local_notifications-22.3.0.tar.gz",
+        "sha256": "1447ba911c60f2ba3f25dae1af151ec187162566b0f57e37771bf0b400f013ad",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_local_notifications-21.0.0"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_local_notifications-22.3.0"
     },
     {
         "type": "inline",
-        "contents": "0d9035862236fe38250fe1644d7ed3b8254e34a21b2c837c9f539fbb3bba5ef1",
+        "contents": "1447ba911c60f2ba3f25dae1af151ec187162566b0f57e37771bf0b400f013ad",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_local_notifications-21.0.0.sha256"
+        "dest-filename": "flutter_local_notifications-22.3.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_local_notifications_linux-8.0.0.tar.gz",
-        "sha256": "e0f25e243c6c44c825bbbc6b2b2e76f7d9222362adcfe9fd780bf01923c840bd",
+        "url": "https://pub.dev/api/archives/flutter_local_notifications_linux-8.0.1.tar.gz",
+        "sha256": "9ca97e63776f29ab1b955725c09999fc2c150523269db150c39274f2a43c5a8b",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_local_notifications_linux-8.0.0"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_local_notifications_linux-8.0.1"
     },
     {
         "type": "inline",
-        "contents": "e0f25e243c6c44c825bbbc6b2b2e76f7d9222362adcfe9fd780bf01923c840bd",
+        "contents": "9ca97e63776f29ab1b955725c09999fc2c150523269db150c39274f2a43c5a8b",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_local_notifications_linux-8.0.0.sha256"
+        "dest-filename": "flutter_local_notifications_linux-8.0.1.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_local_notifications_platform_interface-11.0.0.tar.gz",
-        "sha256": "e7db3d5b49c2b7ecc68deba4aaaa67a348f92ee0fef34c8e4b4459dbef0d7307",
+        "url": "https://pub.dev/api/archives/flutter_local_notifications_platform_interface-12.2.0.tar.gz",
+        "sha256": "43c3761d916c9bd3d5c7ebbc44d82f4990329840c0c5d62ad5260cc1b5d399bd",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_local_notifications_platform_interface-11.0.0"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_local_notifications_platform_interface-12.2.0"
     },
     {
         "type": "inline",
-        "contents": "e7db3d5b49c2b7ecc68deba4aaaa67a348f92ee0fef34c8e4b4459dbef0d7307",
+        "contents": "43c3761d916c9bd3d5c7ebbc44d82f4990329840c0c5d62ad5260cc1b5d399bd",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_local_notifications_platform_interface-11.0.0.sha256"
+        "dest-filename": "flutter_local_notifications_platform_interface-12.2.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_local_notifications_windows-3.0.0.tar.gz",
-        "sha256": "3a2654ba104fbb52c618ebed9def24ef270228470718c43b3a6afcd5c81bef0c",
+        "url": "https://pub.dev/api/archives/flutter_local_notifications_web-1.0.0.tar.gz",
+        "sha256": "516afaf97a2d1e67a036c6617321b00d205d72f7a67b6eccf936cd565f985878",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_local_notifications_windows-3.0.0"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_local_notifications_web-1.0.0"
     },
     {
         "type": "inline",
-        "contents": "3a2654ba104fbb52c618ebed9def24ef270228470718c43b3a6afcd5c81bef0c",
+        "contents": "516afaf97a2d1e67a036c6617321b00d205d72f7a67b6eccf936cd565f985878",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_local_notifications_windows-3.0.0.sha256"
+        "dest-filename": "flutter_local_notifications_web-1.0.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_native_splash-2.4.7.tar.gz",
-        "sha256": "4fb9f4113350d3a80841ce05ebf1976a36de622af7d19aca0ca9a9911c7ff002",
+        "url": "https://pub.dev/api/archives/flutter_local_notifications_windows-3.1.1.tar.gz",
+        "sha256": "6f43bdd03b171b7a90f22647506fea33e2bb12294b7c7c7a3d690e960a382945",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_native_splash-2.4.7"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_local_notifications_windows-3.1.1"
     },
     {
         "type": "inline",
-        "contents": "4fb9f4113350d3a80841ce05ebf1976a36de622af7d19aca0ca9a9911c7ff002",
+        "contents": "6f43bdd03b171b7a90f22647506fea33e2bb12294b7c7c7a3d690e960a382945",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_native_splash-2.4.7.sha256"
+        "dest-filename": "flutter_local_notifications_windows-3.1.1.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_secure_storage-10.2.0.tar.gz",
-        "sha256": "6848263f9744072d0977347c383fb8b57d9780319a6bf5238b5a2866a029de62",
+        "url": "https://pub.dev/api/archives/flutter_material_design_icons-3.1.0+7447.tar.gz",
+        "sha256": "9a7b6308736e328f9ce2249c3727a56a289c915a65ebf1b1b5f237c8232e92b7",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_secure_storage-10.2.0"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_material_design_icons-3.1.0+7447"
     },
     {
         "type": "inline",
-        "contents": "6848263f9744072d0977347c383fb8b57d9780319a6bf5238b5a2866a029de62",
+        "contents": "9a7b6308736e328f9ce2249c3727a56a289c915a65ebf1b1b5f237c8232e92b7",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_secure_storage-10.2.0.sha256"
+        "dest-filename": "flutter_material_design_icons-3.1.0+7447.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_secure_storage_darwin-0.3.1.tar.gz",
-        "sha256": "67cd1ff671add31dc13e45194398187a04bb63804b37fa47866afae296d73fcb",
+        "url": "https://pub.dev/api/archives/flutter_native_splash-2.4.8.tar.gz",
+        "sha256": "9db4b80b044e9af17cc4b1272137fc7ace0054d879ef8210a76adc34aaf4cdff",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_secure_storage_darwin-0.3.1"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_native_splash-2.4.8"
     },
     {
         "type": "inline",
-        "contents": "67cd1ff671add31dc13e45194398187a04bb63804b37fa47866afae296d73fcb",
+        "contents": "9db4b80b044e9af17cc4b1272137fc7ace0054d879ef8210a76adc34aaf4cdff",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_secure_storage_darwin-0.3.1.sha256"
+        "dest-filename": "flutter_native_splash-2.4.8.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_secure_storage_linux-3.0.0.tar.gz",
-        "sha256": "2b5c76dce569ab752d55a1cee6a2242bcc11fdba927078fb88c503f150767cda",
+        "url": "https://pub.dev/api/archives/flutter_secure_storage-10.3.1.tar.gz",
+        "sha256": "7686b1d6a29985dcbb808c59518226e603e3bfa7c0ddfd1a0d00e4cda77c868e",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_secure_storage_linux-3.0.0"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_secure_storage-10.3.1"
     },
     {
         "type": "inline",
-        "contents": "2b5c76dce569ab752d55a1cee6a2242bcc11fdba927078fb88c503f150767cda",
+        "contents": "7686b1d6a29985dcbb808c59518226e603e3bfa7c0ddfd1a0d00e4cda77c868e",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_secure_storage_linux-3.0.0.sha256"
+        "dest-filename": "flutter_secure_storage-10.3.1.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_secure_storage_platform_interface-2.0.1.tar.gz",
-        "sha256": "8ceea1223bee3c6ac1a22dabd8feefc550e4729b3675de4b5900f55afcb435d6",
+        "url": "https://pub.dev/api/archives/flutter_secure_storage_darwin-0.3.2.tar.gz",
+        "sha256": "82329fa5cdf343773b1b6897dea959105a29f092454259edff92f9f6637e8149",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_secure_storage_platform_interface-2.0.1"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_secure_storage_darwin-0.3.2"
     },
     {
         "type": "inline",
-        "contents": "8ceea1223bee3c6ac1a22dabd8feefc550e4729b3675de4b5900f55afcb435d6",
+        "contents": "82329fa5cdf343773b1b6897dea959105a29f092454259edff92f9f6637e8149",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_secure_storage_platform_interface-2.0.1.sha256"
+        "dest-filename": "flutter_secure_storage_darwin-0.3.2.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/flutter_secure_storage_linux-3.0.2.tar.gz",
+        "sha256": "76fa9c841b3b1619fc5b5bc36efc7d158fa2356f223b6caeb1d0c80a54168546",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/flutter_secure_storage_linux-3.0.2"
+    },
+    {
+        "type": "inline",
+        "contents": "76fa9c841b3b1619fc5b5bc36efc7d158fa2356f223b6caeb1d0c80a54168546",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "flutter_secure_storage_linux-3.0.2.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/flutter_secure_storage_platform_interface-2.0.3.tar.gz",
+        "sha256": "788060052712555182aba55ecb5f8b6e5cb9cfe8f776c83249a61fe3ce877db4",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/flutter_secure_storage_platform_interface-2.0.3"
+    },
+    {
+        "type": "inline",
+        "contents": "788060052712555182aba55ecb5f8b6e5cb9cfe8f776c83249a61fe3ce877db4",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "flutter_secure_storage_platform_interface-2.0.3.sha256"
     },
     {
         "type": "archive",
@@ -1108,16 +1205,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_secure_storage_windows-4.2.1.tar.gz",
-        "sha256": "8f42f359f187a94dce7a3ab2ec5903d013dddfc7127078ebab19fa244c3840e8",
+        "url": "https://pub.dev/api/archives/flutter_secure_storage_windows-4.2.2.tar.gz",
+        "sha256": "471951813a97006d899db4948acc654a4f28c440083ea08178935ce20b173ec1",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_secure_storage_windows-4.2.1"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_secure_storage_windows-4.2.2"
     },
     {
         "type": "inline",
-        "contents": "8f42f359f187a94dce7a3ab2ec5903d013dddfc7127078ebab19fa244c3840e8",
+        "contents": "471951813a97006d899db4948acc654a4f28c440083ea08178935ce20b173ec1",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_secure_storage_windows-4.2.1.sha256"
+        "dest-filename": "flutter_secure_storage_windows-4.2.2.sha256"
     },
     {
         "type": "archive",
@@ -1136,16 +1233,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_timezone-5.0.2.tar.gz",
-        "sha256": "e8d63f50f2806a3a71a08697286a0369e1d8f0902961327810459871c0bb01c2",
+        "url": "https://pub.dev/api/archives/flutter_timezone-5.1.0.tar.gz",
+        "sha256": "869677426fde92dbe170fb7d2d4929f2a8343c2f5f62f08b0bb64f908630b073",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_timezone-5.0.2"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_timezone-5.1.0"
     },
     {
         "type": "inline",
-        "contents": "e8d63f50f2806a3a71a08697286a0369e1d8f0902961327810459871c0bb01c2",
+        "contents": "869677426fde92dbe170fb7d2d4929f2a8343c2f5f62f08b0bb64f908630b073",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_timezone-5.0.2.sha256"
+        "dest-filename": "flutter_timezone-5.1.0.sha256"
     },
     {
         "type": "archive",
@@ -1188,6 +1285,20 @@
         "contents": "c3f1ee72c96f8f78935e18aa8cecced9ab132419e8625dc187e1c2408efc20de",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "glob-2.1.3.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/go_router-17.5.0.tar.gz",
+        "sha256": "d7a3576cb312649eaa51f2356450aed686085fb58fcdebda5b359aa951eef7ea",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/go_router-17.5.0"
+    },
+    {
+        "type": "inline",
+        "contents": "d7a3576cb312649eaa51f2356450aed686085fb58fcdebda5b359aa951eef7ea",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "go_router-17.5.0.sha256"
     },
     {
         "type": "archive",
@@ -1248,16 +1359,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/hooks-1.0.3.tar.gz",
-        "sha256": "025f060e86d2d4c3c47b56e33caf7f93bf9283340f26d23424ebcfccf34f621e",
+        "url": "https://pub.dev/api/archives/hooks-2.0.2.tar.gz",
+        "sha256": "9a62a50b50b769a737bc0a8ff381f333529df3ab746b2f6b02e83760231455ba",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/hooks-1.0.3"
+        "dest": ".pub-cache/hosted/pub.dev/hooks-2.0.2"
     },
     {
         "type": "inline",
-        "contents": "025f060e86d2d4c3c47b56e33caf7f93bf9283340f26d23424ebcfccf34f621e",
+        "contents": "9a62a50b50b769a737bc0a8ff381f333529df3ab746b2f6b02e83760231455ba",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "hooks-1.0.3.sha256"
+        "dest-filename": "hooks-2.0.2.sha256"
     },
     {
         "type": "archive",
@@ -1316,31 +1427,32 @@
         "dest-filename": "http_parser-4.1.2.sha256"
     },
     {
-        "type": "git",
-        "url": "https://github.com/Gaurav192/icon_font_generator.git",
-        "commit": "134cfbd4d6a16f29ac31b11fa99d1db0c64fbd52",
-        "dest": ".pub-cache/git/icon_font_generator-134cfbd4d6a16f29ac31b11fa99d1db0c64fbd52"
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/icon_font_generator-4.1.0.tar.gz",
+        "sha256": "ee807b461e5cd6c543cf55fd41298158837e18d70014dfeb6f7d285647e83235",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/icon_font_generator-4.1.0"
     },
     {
-        "type": "shell",
-        "commands": [
-            "mkdir -p .pub-cache/git/cache/icon_font_generator-eec6d9ba979bc5bef035a6a618498ddf0db687b0",
-            "cp -rf .pub-cache/git/icon_font_generator-134cfbd4d6a16f29ac31b11fa99d1db0c64fbd52/.git/* .pub-cache/git/cache/icon_font_generator-eec6d9ba979bc5bef035a6a618498ddf0db687b0"
-        ]
+        "type": "inline",
+        "contents": "ee807b461e5cd6c543cf55fd41298158837e18d70014dfeb6f7d285647e83235",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "icon_font_generator-4.1.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/image-4.8.0.tar.gz",
-        "sha256": "f9881ff4998044947ec38d098bc7c8316ae1186fa786eddffdb867b9bc94dfce",
+        "url": "https://pub.dev/api/archives/image-4.9.2.tar.gz",
+        "sha256": "1976370a4df3091bb0f72409c187ad1f9132a818bc6b95ca59c0bae1c75c688e",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/image-4.8.0"
+        "dest": ".pub-cache/hosted/pub.dev/image-4.9.2"
     },
     {
         "type": "inline",
-        "contents": "f9881ff4998044947ec38d098bc7c8316ae1186fa786eddffdb867b9bc94dfce",
+        "contents": "1976370a4df3091bb0f72409c187ad1f9132a818bc6b95ca59c0bae1c75c688e",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "image-4.8.0.sha256"
+        "dest-filename": "image-4.9.2.sha256"
     },
     {
         "type": "archive",
@@ -1387,30 +1499,44 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/jni-1.0.0.tar.gz",
-        "sha256": "c2230682d5bc2362c1c9e8d3c7f406d9cbba23ab3f2e203a025dd47e0fb2e68f",
+        "url": "https://pub.dev/api/archives/jni-1.0.3.tar.gz",
+        "sha256": "f038e58b4dc2c9037f50e233175086337e0b305e356d28211bf55f21c504cbd3",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/jni-1.0.0"
+        "dest": ".pub-cache/hosted/pub.dev/jni-1.0.3"
     },
     {
         "type": "inline",
-        "contents": "c2230682d5bc2362c1c9e8d3c7f406d9cbba23ab3f2e203a025dd47e0fb2e68f",
+        "contents": "f038e58b4dc2c9037f50e233175086337e0b305e356d28211bf55f21c504cbd3",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "jni-1.0.0.sha256"
+        "dest-filename": "jni-1.0.3.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/jni_flutter-1.0.1.tar.gz",
-        "sha256": "8b59e590786050b1cd866677dddaf76b1ade5e7bc751abe04b86e84d379d3ba6",
+        "url": "https://pub.dev/api/archives/jni_flutter-1.0.2.tar.gz",
+        "sha256": "7b717011ea40d04fd47c2731d3d1d36eb99eba3435c2753d62489e8c3c9991d5",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/jni_flutter-1.0.1"
+        "dest": ".pub-cache/hosted/pub.dev/jni_flutter-1.0.2"
     },
     {
         "type": "inline",
-        "contents": "8b59e590786050b1cd866677dddaf76b1ade5e7bc751abe04b86e84d379d3ba6",
+        "contents": "7b717011ea40d04fd47c2731d3d1d36eb99eba3435c2753d62489e8c3c9991d5",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "jni_flutter-1.0.1.sha256"
+        "dest-filename": "jni_flutter-1.0.2.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/jni_util-1.0.0.tar.gz",
+        "sha256": "1ba86da04a5f2bf18fde2edb235587e70c5b0fc5bd4ba955f46b00942c3fc35f",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/jni_util-1.0.0"
+    },
+    {
+        "type": "inline",
+        "contents": "1ba86da04a5f2bf18fde2edb235587e70c5b0fc5bd4ba955f46b00942c3fc35f",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "jni_util-1.0.0.sha256"
     },
     {
         "type": "archive",
@@ -1429,16 +1555,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/json_serializable-6.14.0.tar.gz",
-        "sha256": "ffcd10cde35a93b2abbbcc26bd9971f4ca93763e8abe78d855e3c4177797e501",
+        "url": "https://pub.dev/api/archives/json_serializable-6.14.1.tar.gz",
+        "sha256": "e45aefa0324f08c683caafbb94b72837aa6193c61822799c916e45f4a263113d",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/json_serializable-6.14.0"
+        "dest": ".pub-cache/hosted/pub.dev/json_serializable-6.14.1"
     },
     {
         "type": "inline",
-        "contents": "ffcd10cde35a93b2abbbcc26bd9971f4ca93763e8abe78d855e3c4177797e501",
+        "contents": "e45aefa0324f08c683caafbb94b72837aa6193c61822799c916e45f4a263113d",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "json_serializable-6.14.0.sha256"
+        "dest-filename": "json_serializable-6.14.1.sha256"
     },
     {
         "type": "archive",
@@ -1597,30 +1723,44 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/material_design_icons_flutter-6.0.7296.tar.gz",
-        "sha256": "4c81ebf55b9661d1eb94652884a7b098af63153ea75b9070caedaddfae308e02",
+        "url": "https://pub.dev/api/archives/material_ui-1.0.1.tar.gz",
+        "sha256": "4f3f38b9953df0a87d6bf5f21880029f77c47048487d5339410c39936be4683b",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/material_design_icons_flutter-6.0.7296"
+        "dest": ".pub-cache/hosted/pub.dev/material_ui-1.0.1"
     },
     {
         "type": "inline",
-        "contents": "4c81ebf55b9661d1eb94652884a7b098af63153ea75b9070caedaddfae308e02",
+        "contents": "4f3f38b9953df0a87d6bf5f21880029f77c47048487d5339410c39936be4683b",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "material_design_icons_flutter-6.0.7296.sha256"
+        "dest-filename": "material_ui-1.0.1.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/meta-1.17.0.tar.gz",
-        "sha256": "23f08335362185a5ea2ad3a4e597f1375e78bce8a040df5c600c8d3552ef2394",
+        "url": "https://pub.dev/api/archives/melos-7.8.1.tar.gz",
+        "sha256": "b40731f34d3aacb199641a9b4955e52a866b0b0bc93ffc5c8ff21bffc6593134",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/meta-1.17.0"
+        "dest": ".pub-cache/hosted/pub.dev/melos-7.8.1"
     },
     {
         "type": "inline",
-        "contents": "23f08335362185a5ea2ad3a4e597f1375e78bce8a040df5c600c8d3552ef2394",
+        "contents": "b40731f34d3aacb199641a9b4955e52a866b0b0bc93ffc5c8ff21bffc6593134",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "meta-1.17.0.sha256"
+        "dest-filename": "melos-7.8.1.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/meta-1.18.0.tar.gz",
+        "sha256": "1741988757a65eb6b36abe716829688cf01910bbf91c34354ff7ec1c3de2b349",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/meta-1.18.0"
+    },
+    {
+        "type": "inline",
+        "contents": "1741988757a65eb6b36abe716829688cf01910bbf91c34354ff7ec1c3de2b349",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "meta-1.18.0.sha256"
     },
     {
         "type": "archive",
@@ -1653,16 +1793,30 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/msix-3.16.13.tar.gz",
-        "sha256": "b6b08e7a7b5d1845f2b1d31216d5b1fb558e98251efefe54eb79ed00d27bc2ac",
+        "url": "https://pub.dev/api/archives/msix-3.18.0.tar.gz",
+        "sha256": "61415c352e8aea084332b8a5514e6408c961c8cdeca202804fff1040eb555ac7",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/msix-3.16.13"
+        "dest": ".pub-cache/hosted/pub.dev/msix-3.18.0"
     },
     {
         "type": "inline",
-        "contents": "b6b08e7a7b5d1845f2b1d31216d5b1fb558e98251efefe54eb79ed00d27bc2ac",
+        "contents": "61415c352e8aea084332b8a5514e6408c961c8cdeca202804fff1040eb555ac7",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "msix-3.16.13.sha256"
+        "dest-filename": "msix-3.18.0.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/mustache_template-2.0.5.tar.gz",
+        "sha256": "c689b4d59176f8c7a2860aab765d205916aa5b06cfafff7613bfcc42fa996143",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/mustache_template-2.0.5"
+    },
+    {
+        "type": "inline",
+        "contents": "c689b4d59176f8c7a2860aab765d205916aa5b06cfafff7613bfcc42fa996143",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "mustache_template-2.0.5.sha256"
     },
     {
         "type": "archive",
@@ -1681,16 +1835,30 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/native_toolchain_c-0.17.6.tar.gz",
-        "sha256": "6ba77bb18063eebe9de401f5e6437e95e1438af0a87a3a39084fbd37c90df572",
+        "url": "https://pub.dev/api/archives/native_natural_sort-0.1.4.tar.gz",
+        "sha256": "44dfb5e067cd68000a4a240dc7ffa2f92b9b02262619bab4cc27bd5a7b774af8",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/native_toolchain_c-0.17.6"
+        "dest": ".pub-cache/hosted/pub.dev/native_natural_sort-0.1.4"
     },
     {
         "type": "inline",
-        "contents": "6ba77bb18063eebe9de401f5e6437e95e1438af0a87a3a39084fbd37c90df572",
+        "contents": "44dfb5e067cd68000a4a240dc7ffa2f92b9b02262619bab4cc27bd5a7b774af8",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "native_toolchain_c-0.17.6.sha256"
+        "dest-filename": "native_natural_sort-0.1.4.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/native_toolchain_c-0.19.2.tar.gz",
+        "sha256": "f9c168717100ae6d9fee9ffb0be379bf1f8b26b0f6bcbd4fdddcd931993a6a72",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/native_toolchain_c-0.19.2"
+    },
+    {
+        "type": "inline",
+        "contents": "f9c168717100ae6d9fee9ffb0be379bf1f8b26b0f6bcbd4fdddcd931993a6a72",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "native_toolchain_c-0.19.2.sha256"
     },
     {
         "type": "archive",
@@ -1737,128 +1905,128 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/objective_c-9.3.0.tar.gz",
-        "sha256": "100a1c87616ab6ed41ec263b083c0ef3261ee6cd1dc3b0f35f8ddfa4f996fe52",
+        "url": "https://pub.dev/api/archives/objective_c-9.5.0.tar.gz",
+        "sha256": "b7fb95a6d9a4f009edd63dc5ac69f07420b23a16161c6dd8660290b59c602e8e",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/objective_c-9.3.0"
+        "dest": ".pub-cache/hosted/pub.dev/objective_c-9.5.0"
     },
     {
         "type": "inline",
-        "contents": "100a1c87616ab6ed41ec263b083c0ef3261ee6cd1dc3b0f35f8ddfa4f996fe52",
+        "contents": "b7fb95a6d9a4f009edd63dc5ac69f07420b23a16161c6dd8660290b59c602e8e",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "objective_c-9.3.0.sha256"
+        "dest-filename": "objective_c-9.5.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/open_file-3.5.11.tar.gz",
-        "sha256": "b22decdae85b459eac24aeece48f33845c6f16d278a9c63d75c5355345ca236b",
+        "url": "https://pub.dev/api/archives/open_file-4.0.0.tar.gz",
+        "sha256": "4f9b00d42565249ed4346976bc0d57f91303bec391f6b0b217921277cf8e6e4f",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/open_file-3.5.11"
+        "dest": ".pub-cache/hosted/pub.dev/open_file-4.0.0"
     },
     {
         "type": "inline",
-        "contents": "b22decdae85b459eac24aeece48f33845c6f16d278a9c63d75c5355345ca236b",
+        "contents": "4f9b00d42565249ed4346976bc0d57f91303bec391f6b0b217921277cf8e6e4f",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "open_file-3.5.11.sha256"
+        "dest-filename": "open_file-4.0.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/open_file_android-1.0.6.tar.gz",
-        "sha256": "58141fcaece2f453a9684509a7275f231ac0e3d6ceb9a5e6de310a7dff9084aa",
+        "url": "https://pub.dev/api/archives/open_file_android-1.1.0.tar.gz",
+        "sha256": "f48a342b0347bf82bebf68c752f5cfce162965ce8449c5ecdafc406d294aa63d",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/open_file_android-1.0.6"
+        "dest": ".pub-cache/hosted/pub.dev/open_file_android-1.1.0"
     },
     {
         "type": "inline",
-        "contents": "58141fcaece2f453a9684509a7275f231ac0e3d6ceb9a5e6de310a7dff9084aa",
+        "contents": "f48a342b0347bf82bebf68c752f5cfce162965ce8449c5ecdafc406d294aa63d",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "open_file_android-1.0.6.sha256"
+        "dest-filename": "open_file_android-1.1.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/open_file_ios-1.0.4.tar.gz",
-        "sha256": "a5acd07ba1f304f807a97acbcc489457e1ad0aadff43c467987dd9eef814098f",
+        "url": "https://pub.dev/api/archives/open_file_ios-1.1.0.tar.gz",
+        "sha256": "0e3e67dcd12f69888128f533cacc092039627dd4f1d7a95a2826b814ae4ea8aa",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/open_file_ios-1.0.4"
+        "dest": ".pub-cache/hosted/pub.dev/open_file_ios-1.1.0"
     },
     {
         "type": "inline",
-        "contents": "a5acd07ba1f304f807a97acbcc489457e1ad0aadff43c467987dd9eef814098f",
+        "contents": "0e3e67dcd12f69888128f533cacc092039627dd4f1d7a95a2826b814ae4ea8aa",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "open_file_ios-1.0.4.sha256"
+        "dest-filename": "open_file_ios-1.1.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/open_file_linux-0.0.5.tar.gz",
-        "sha256": "d189f799eecbb139c97f8bc7d303f9e720954fa4e0fa1b0b7294767e5f2d7550",
+        "url": "https://pub.dev/api/archives/open_file_linux-1.1.0.tar.gz",
+        "sha256": "efd9c1f9679745cf35a54d21d809a1fe5a1196d4a1353fe2d205ba298ae86dc9",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/open_file_linux-0.0.5"
+        "dest": ".pub-cache/hosted/pub.dev/open_file_linux-1.1.0"
     },
     {
         "type": "inline",
-        "contents": "d189f799eecbb139c97f8bc7d303f9e720954fa4e0fa1b0b7294767e5f2d7550",
+        "contents": "efd9c1f9679745cf35a54d21d809a1fe5a1196d4a1353fe2d205ba298ae86dc9",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "open_file_linux-0.0.5.sha256"
+        "dest-filename": "open_file_linux-1.1.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/open_file_mac-1.0.4.tar.gz",
-        "sha256": "cd293f6750de6438ab2390513c99128ade8c974825d4d8128886d1cda8c64d01",
+        "url": "https://pub.dev/api/archives/open_file_mac-1.1.0.tar.gz",
+        "sha256": "1abe00e65f792b9baa1e15fdf4d44af5e813b1696ac307d71535543122a01e30",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/open_file_mac-1.0.4"
+        "dest": ".pub-cache/hosted/pub.dev/open_file_mac-1.1.0"
     },
     {
         "type": "inline",
-        "contents": "cd293f6750de6438ab2390513c99128ade8c974825d4d8128886d1cda8c64d01",
+        "contents": "1abe00e65f792b9baa1e15fdf4d44af5e813b1696ac307d71535543122a01e30",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "open_file_mac-1.0.4.sha256"
+        "dest-filename": "open_file_mac-1.1.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/open_file_platform_interface-1.0.3.tar.gz",
-        "sha256": "101b424ca359632699a7e1213e83d025722ab668b9fd1412338221bf9b0e5757",
+        "url": "https://pub.dev/api/archives/open_file_platform_interface-1.1.0.tar.gz",
+        "sha256": "dc302e4bd5c1d77acec4240bd0dbc1d9f2ee6882b1ce52bca5298369da7acf12",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/open_file_platform_interface-1.0.3"
+        "dest": ".pub-cache/hosted/pub.dev/open_file_platform_interface-1.1.0"
     },
     {
         "type": "inline",
-        "contents": "101b424ca359632699a7e1213e83d025722ab668b9fd1412338221bf9b0e5757",
+        "contents": "dc302e4bd5c1d77acec4240bd0dbc1d9f2ee6882b1ce52bca5298369da7acf12",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "open_file_platform_interface-1.0.3.sha256"
+        "dest-filename": "open_file_platform_interface-1.1.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/open_file_web-0.0.4.tar.gz",
-        "sha256": "e3dbc9584856283dcb30aef5720558b90f88036360bd078e494ab80a80130c4f",
+        "url": "https://pub.dev/api/archives/open_file_web-1.1.0.tar.gz",
+        "sha256": "4945221c9ee98a5a6cdf26730fe0fabb3a36c1e423148bff4c32c283079ee532",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/open_file_web-0.0.4"
+        "dest": ".pub-cache/hosted/pub.dev/open_file_web-1.1.0"
     },
     {
         "type": "inline",
-        "contents": "e3dbc9584856283dcb30aef5720558b90f88036360bd078e494ab80a80130c4f",
+        "contents": "4945221c9ee98a5a6cdf26730fe0fabb3a36c1e423148bff4c32c283079ee532",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "open_file_web-0.0.4.sha256"
+        "dest-filename": "open_file_web-1.1.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/open_file_windows-0.0.3.tar.gz",
-        "sha256": "d26c31ddf935a94a1a3aa43a23f4fff8a5ff4eea395fe7a8cb819cf55431c875",
+        "url": "https://pub.dev/api/archives/open_file_windows-1.1.0.tar.gz",
+        "sha256": "6a97d8f2a5966fb0a7f613a901f1d502f93456f64e8a7519d3204184413aab79",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/open_file_windows-0.0.3"
+        "dest": ".pub-cache/hosted/pub.dev/open_file_windows-1.1.0"
     },
     {
         "type": "inline",
-        "contents": "d26c31ddf935a94a1a3aa43a23f4fff8a5ff4eea395fe7a8cb819cf55431c875",
+        "contents": "6a97d8f2a5966fb0a7f613a901f1d502f93456f64e8a7519d3204184413aab79",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "open_file_windows-0.0.3.sha256"
+        "dest-filename": "open_file_windows-1.1.0.sha256"
     },
     {
         "type": "archive",
@@ -1877,16 +2045,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/package_info_plus-10.1.0.tar.gz",
-        "sha256": "4bf625947f6c7713ee242296a682e23e44823c09cf9d79e4f1238923c92db852",
+        "url": "https://pub.dev/api/archives/package_info_plus-10.2.1.tar.gz",
+        "sha256": "127e1751e37ffb2ff4658beeaca77bad0c27bf5f932bd3a501c2296926d4b481",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/package_info_plus-10.1.0"
+        "dest": ".pub-cache/hosted/pub.dev/package_info_plus-10.2.1"
     },
     {
         "type": "inline",
-        "contents": "4bf625947f6c7713ee242296a682e23e44823c09cf9d79e4f1238923c92db852",
+        "contents": "127e1751e37ffb2ff4658beeaca77bad0c27bf5f932bd3a501c2296926d4b481",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "package_info_plus-10.1.0.sha256"
+        "dest-filename": "package_info_plus-10.2.1.sha256"
     },
     {
         "type": "archive",
@@ -1947,16 +2115,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/path_provider-2.1.5.tar.gz",
-        "sha256": "50c5dd5b6e1aaf6fb3a78b33f6aa3afca52bf903a8a5298f53101fdaee55bbcd",
+        "url": "https://pub.dev/api/archives/path_provider-2.1.6.tar.gz",
+        "sha256": "a7f4874f987173da295a61c181b8ee71dab59b332a486b391babf26a1b884825",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/path_provider-2.1.5"
+        "dest": ".pub-cache/hosted/pub.dev/path_provider-2.1.6"
     },
     {
         "type": "inline",
-        "contents": "50c5dd5b6e1aaf6fb3a78b33f6aa3afca52bf903a8a5298f53101fdaee55bbcd",
+        "contents": "a7f4874f987173da295a61c181b8ee71dab59b332a486b391babf26a1b884825",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "path_provider-2.1.5.sha256"
+        "dest-filename": "path_provider-2.1.6.sha256"
     },
     {
         "type": "archive",
@@ -1989,30 +2157,30 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/path_provider_linux-2.2.1.tar.gz",
-        "sha256": "f7a1fe3a634fe7734c8d3f2766ad746ae2a2884abe22e241a8b301bf5cac3279",
+        "url": "https://pub.dev/api/archives/path_provider_linux-2.2.2.tar.gz",
+        "sha256": "58c2005f147315b11e9b4a7bc889cd5203e250cba8e3f012dae259b4972b5c16",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/path_provider_linux-2.2.1"
+        "dest": ".pub-cache/hosted/pub.dev/path_provider_linux-2.2.2"
     },
     {
         "type": "inline",
-        "contents": "f7a1fe3a634fe7734c8d3f2766ad746ae2a2884abe22e241a8b301bf5cac3279",
+        "contents": "58c2005f147315b11e9b4a7bc889cd5203e250cba8e3f012dae259b4972b5c16",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "path_provider_linux-2.2.1.sha256"
+        "dest-filename": "path_provider_linux-2.2.2.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/path_provider_platform_interface-2.1.2.tar.gz",
-        "sha256": "88f5779f72ba699763fa3a3b06aa4bf6de76c8e5de842cf6f29e2e06476c2334",
+        "url": "https://pub.dev/api/archives/path_provider_platform_interface-2.1.3.tar.gz",
+        "sha256": "484838772624c3a4b94f1e44a3e19897fee738f2d5c4ce448443b0417f7c9dda",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/path_provider_platform_interface-2.1.2"
+        "dest": ".pub-cache/hosted/pub.dev/path_provider_platform_interface-2.1.3"
     },
     {
         "type": "inline",
-        "contents": "88f5779f72ba699763fa3a3b06aa4bf6de76c8e5de842cf6f29e2e06476c2334",
+        "contents": "484838772624c3a4b94f1e44a3e19897fee738f2d5c4ce448443b0417f7c9dda",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "path_provider_platform_interface-2.1.2.sha256"
+        "dest-filename": "path_provider_platform_interface-2.1.3.sha256"
     },
     {
         "type": "archive",
@@ -2087,16 +2255,44 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/posix-6.5.0.tar.gz",
-        "sha256": "185ef7606574f789b40f289c233efa52e96dead518aed988e040a10737febb07",
+        "url": "https://pub.dev/api/archives/posix-6.5.2.tar.gz",
+        "sha256": "bc1bad54ad2b735816e31f8d4600cfde6c7839975085ddfbca48b6c9f7c4044e",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/posix-6.5.0"
+        "dest": ".pub-cache/hosted/pub.dev/posix-6.5.2"
     },
     {
         "type": "inline",
-        "contents": "185ef7606574f789b40f289c233efa52e96dead518aed988e040a10737febb07",
+        "contents": "bc1bad54ad2b735816e31f8d4600cfde6c7839975085ddfbca48b6c9f7c4044e",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "posix-6.5.0.sha256"
+        "dest-filename": "posix-6.5.2.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/process-5.0.5.tar.gz",
+        "sha256": "c6248e4526673988586e8c00bb22a49210c258dc91df5227d5da9748ecf79744",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/process-5.0.5"
+    },
+    {
+        "type": "inline",
+        "contents": "c6248e4526673988586e8c00bb22a49210c258dc91df5227d5da9748ecf79744",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "process-5.0.5.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/prompts-2.0.0.tar.gz",
+        "sha256": "3773b845e85a849f01e793c4fc18a45d52d7783b4cb6c0569fad19f9d0a774a1",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/prompts-2.0.0"
+    },
+    {
+        "type": "inline",
+        "contents": "3773b845e85a849f01e793c4fc18a45d52d7783b4cb6c0569fad19f9d0a774a1",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "prompts-2.0.0.sha256"
     },
     {
         "type": "archive",
@@ -2125,6 +2321,20 @@
         "contents": "5bfcf68ca79ef689f8990d1160781b4bad40a3bd5e5218ad4076ddb7f4081585",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "pub_semver-2.2.0.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/pub_updater-0.5.0.tar.gz",
+        "sha256": "739a0161d73a6974c0675b864fb0cf5147305f7b077b7f03a58fa7a9ab3e7e7d",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/pub_updater-0.5.0"
+    },
+    {
+        "type": "inline",
+        "contents": "739a0161d73a6974c0675b864fb0cf5147305f7b077b7f03a58fa7a9ab3e7e7d",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "pub_updater-0.5.0.sha256"
     },
     {
         "type": "archive",
@@ -2227,30 +2437,30 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/share_plus-13.1.0.tar.gz",
-        "sha256": "a857d8b1479250aff6b57a51b2c02d31ca05848d441817c43f1640c885c286c0",
+        "url": "https://pub.dev/api/archives/share_plus-13.3.0.tar.gz",
+        "sha256": "34f00f9becd2743c1fb05363d624f9f70d37f7ccdcdda47450bc0b8c9d327b8c",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/share_plus-13.1.0"
+        "dest": ".pub-cache/hosted/pub.dev/share_plus-13.3.0"
     },
     {
         "type": "inline",
-        "contents": "a857d8b1479250aff6b57a51b2c02d31ca05848d441817c43f1640c885c286c0",
+        "contents": "34f00f9becd2743c1fb05363d624f9f70d37f7ccdcdda47450bc0b8c9d327b8c",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "share_plus-13.1.0.sha256"
+        "dest-filename": "share_plus-13.3.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/share_plus_platform_interface-7.1.0.tar.gz",
-        "sha256": "7f7ae28cf400d13f811e297ff37742dba83b79e0a6f5dce14eec0248274e6ce9",
+        "url": "https://pub.dev/api/archives/share_plus_platform_interface-7.2.0.tar.gz",
+        "sha256": "365ef7379fc22507256adda3385152942ffce08935452bc972c2e52a0bebae41",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/share_plus_platform_interface-7.1.0"
+        "dest": ".pub-cache/hosted/pub.dev/share_plus_platform_interface-7.2.0"
     },
     {
         "type": "inline",
-        "contents": "7f7ae28cf400d13f811e297ff37742dba83b79e0a6f5dce14eec0248274e6ce9",
+        "contents": "365ef7379fc22507256adda3385152942ffce08935452bc972c2e52a0bebae41",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "share_plus_platform_interface-7.1.0.sha256"
+        "dest-filename": "share_plus_platform_interface-7.2.0.sha256"
     },
     {
         "type": "archive",
@@ -2269,16 +2479,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/shared_preferences_android-2.4.23.tar.gz",
-        "sha256": "e8d4762b1e2e8578fc4d0fd548cebf24afd24f49719c08974df92834565e2c53",
+        "url": "https://pub.dev/api/archives/shared_preferences_android-2.4.27.tar.gz",
+        "sha256": "0634e64bd719f89c012f392938e173521f535d3ecaf66558fa94a056d22b5cc7",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/shared_preferences_android-2.4.23"
+        "dest": ".pub-cache/hosted/pub.dev/shared_preferences_android-2.4.27"
     },
     {
         "type": "inline",
-        "contents": "e8d4762b1e2e8578fc4d0fd548cebf24afd24f49719c08974df92834565e2c53",
+        "contents": "0634e64bd719f89c012f392938e173521f535d3ecaf66558fa94a056d22b5cc7",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "shared_preferences_android-2.4.23.sha256"
+        "dest-filename": "shared_preferences_android-2.4.27.sha256"
     },
     {
         "type": "archive",
@@ -2423,16 +2633,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/simple_icons-10.1.3.tar.gz",
-        "sha256": "30067d70a9d72923fbc80e142e17fa46085dfa970e66bc4bede3be4819d05901",
+        "url": "https://pub.dev/api/archives/simple_icons-16.23.0.tar.gz",
+        "sha256": "21246ffcaaf9f560695596093c2ecf9fa763fd112a15916fbe7d282932430bae",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/simple_icons-10.1.3"
+        "dest": ".pub-cache/hosted/pub.dev/simple_icons-16.23.0"
     },
     {
         "type": "inline",
-        "contents": "30067d70a9d72923fbc80e142e17fa46085dfa970e66bc4bede3be4819d05901",
+        "contents": "21246ffcaaf9f560695596093c2ecf9fa763fd112a15916fbe7d282932430bae",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "simple_icons-10.1.3.sha256"
+        "dest-filename": "simple_icons-16.23.0.sha256"
     },
     {
         "type": "archive",
@@ -2465,30 +2675,30 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/source_gen-4.2.3.tar.gz",
-        "sha256": "ec37cc0e6694374cbef59ed79685572c870a54ede6fa30a3e420feb3adffea02",
+        "url": "https://pub.dev/api/archives/source_gen-4.2.4.tar.gz",
+        "sha256": "a603f1fb984a7391ae5978d1b92bfaaa08b350dca5c825256f925818f7943bf5",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/source_gen-4.2.3"
+        "dest": ".pub-cache/hosted/pub.dev/source_gen-4.2.4"
     },
     {
         "type": "inline",
-        "contents": "ec37cc0e6694374cbef59ed79685572c870a54ede6fa30a3e420feb3adffea02",
+        "contents": "a603f1fb984a7391ae5978d1b92bfaaa08b350dca5c825256f925818f7943bf5",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "source_gen-4.2.3.sha256"
+        "dest-filename": "source_gen-4.2.4.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/source_helper-1.3.12.tar.gz",
-        "sha256": "4227d54ceefd0bb8ca4c8fcb96e1719dc53f1ee1b6e2ca9d7a6069da160e4eae",
+        "url": "https://pub.dev/api/archives/source_helper-1.3.13.tar.gz",
+        "sha256": "5e6f216fdf6376c9f3852381ae037499797a3385377d388b011dac98d303c67c",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/source_helper-1.3.12"
+        "dest": ".pub-cache/hosted/pub.dev/source_helper-1.3.13"
     },
     {
         "type": "inline",
-        "contents": "4227d54ceefd0bb8ca4c8fcb96e1719dc53f1ee1b6e2ca9d7a6069da160e4eae",
+        "contents": "5e6f216fdf6376c9f3852381ae037499797a3385377d388b011dac98d303c67c",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "source_helper-1.3.12.sha256"
+        "dest-filename": "source_helper-1.3.13.sha256"
     },
     {
         "type": "archive",
@@ -2535,100 +2745,100 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/sqflite-2.4.2+1.tar.gz",
-        "sha256": "564cfed0746fe53140c23b70b308e045c3b31f17778f2f326ccb7d804ea0250a",
+        "url": "https://pub.dev/api/archives/sqflite-2.4.3.tar.gz",
+        "sha256": "58a799e6ac17dd32fbab93813d39ed835a75ccc0f8f85b8955fe318c6712b082",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/sqflite-2.4.2+1"
+        "dest": ".pub-cache/hosted/pub.dev/sqflite-2.4.3"
     },
     {
         "type": "inline",
-        "contents": "564cfed0746fe53140c23b70b308e045c3b31f17778f2f326ccb7d804ea0250a",
+        "contents": "58a799e6ac17dd32fbab93813d39ed835a75ccc0f8f85b8955fe318c6712b082",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "sqflite-2.4.2+1.sha256"
+        "dest-filename": "sqflite-2.4.3.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/sqflite_android-2.4.2+3.tar.gz",
-        "sha256": "881e28efdcc9950fd8e9bb42713dcf1103e62a2e7168f23c9338d82db13dec40",
+        "url": "https://pub.dev/api/archives/sqflite_android-2.4.3.tar.gz",
+        "sha256": "d0548f9d7422a2dae99ec6f8b0a3074463b132d216fa5ba0d230eeefc901983b",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/sqflite_android-2.4.2+3"
+        "dest": ".pub-cache/hosted/pub.dev/sqflite_android-2.4.3"
     },
     {
         "type": "inline",
-        "contents": "881e28efdcc9950fd8e9bb42713dcf1103e62a2e7168f23c9338d82db13dec40",
+        "contents": "d0548f9d7422a2dae99ec6f8b0a3074463b132d216fa5ba0d230eeefc901983b",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "sqflite_android-2.4.2+3.sha256"
+        "dest-filename": "sqflite_android-2.4.3.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/sqflite_common-2.5.7.tar.gz",
-        "sha256": "f8a08a13fb8f0f8c590df89d745000bed44a673ed94bac846739e1a016875c21",
+        "url": "https://pub.dev/api/archives/sqflite_common-2.5.11.tar.gz",
+        "sha256": "5bf6a55c166e73bf651ba7ec3ed486e577620e3dc8f3a9c6a258a8031b624590",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/sqflite_common-2.5.7"
+        "dest": ".pub-cache/hosted/pub.dev/sqflite_common-2.5.11"
     },
     {
         "type": "inline",
-        "contents": "f8a08a13fb8f0f8c590df89d745000bed44a673ed94bac846739e1a016875c21",
+        "contents": "5bf6a55c166e73bf651ba7ec3ed486e577620e3dc8f3a9c6a258a8031b624590",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "sqflite_common-2.5.7.sha256"
+        "dest-filename": "sqflite_common-2.5.11.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/sqflite_common_ffi-2.4.0+3.tar.gz",
-        "sha256": "cd0c7f7de39a08f2d54ef144d9058c46eca8461879aaa648025643455c1e5a20",
+        "url": "https://pub.dev/api/archives/sqflite_common_ffi-2.4.2+1.tar.gz",
+        "sha256": "d5564f1308cafbf064be498f2beb1e993e742985a7cca9e2e228d6cbccd84a05",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/sqflite_common_ffi-2.4.0+3"
+        "dest": ".pub-cache/hosted/pub.dev/sqflite_common_ffi-2.4.2+1"
     },
     {
         "type": "inline",
-        "contents": "cd0c7f7de39a08f2d54ef144d9058c46eca8461879aaa648025643455c1e5a20",
+        "contents": "d5564f1308cafbf064be498f2beb1e993e742985a7cca9e2e228d6cbccd84a05",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "sqflite_common_ffi-2.4.0+3.sha256"
+        "dest-filename": "sqflite_common_ffi-2.4.2+1.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/sqflite_darwin-2.4.2.tar.gz",
-        "sha256": "279832e5cde3fe99e8571879498c9211f3ca6391b0d818df4e17d9fff5c6ccb3",
+        "url": "https://pub.dev/api/archives/sqflite_darwin-2.4.3+1.tar.gz",
+        "sha256": "c86ca18b8f666bbf903924687fe21cc16fc385d086005067e26619ca530bef9f",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/sqflite_darwin-2.4.2"
+        "dest": ".pub-cache/hosted/pub.dev/sqflite_darwin-2.4.3+1"
     },
     {
         "type": "inline",
-        "contents": "279832e5cde3fe99e8571879498c9211f3ca6391b0d818df4e17d9fff5c6ccb3",
+        "contents": "c86ca18b8f666bbf903924687fe21cc16fc385d086005067e26619ca530bef9f",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "sqflite_darwin-2.4.2.sha256"
+        "dest-filename": "sqflite_darwin-2.4.3+1.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/sqflite_platform_interface-2.4.0.tar.gz",
-        "sha256": "8dd4515c7bdcae0a785b0062859336de775e8c65db81ae33dd5445f35be61920",
+        "url": "https://pub.dev/api/archives/sqflite_platform_interface-2.4.1.tar.gz",
+        "sha256": "f84939f84350d92d04416f8bc4dc52d3896aec7716cc9e80cf0146342139dc50",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/sqflite_platform_interface-2.4.0"
+        "dest": ".pub-cache/hosted/pub.dev/sqflite_platform_interface-2.4.1"
     },
     {
         "type": "inline",
-        "contents": "8dd4515c7bdcae0a785b0062859336de775e8c65db81ae33dd5445f35be61920",
+        "contents": "f84939f84350d92d04416f8bc4dc52d3896aec7716cc9e80cf0146342139dc50",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "sqflite_platform_interface-2.4.0.sha256"
+        "dest-filename": "sqflite_platform_interface-2.4.1.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/sqlite3-3.3.1.tar.gz",
-        "sha256": "56da3e13ed7d28a66f930aa2b2b29db6736a233f08283326e96321dd812030f5",
+        "url": "https://pub.dev/api/archives/sqlite3-3.5.2.tar.gz",
+        "sha256": "4c7fe79840389aaeaf05fd093f795b631b5a98e2bd28d54e555c100f4a9c7a1c",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/sqlite3-3.3.1"
+        "dest": ".pub-cache/hosted/pub.dev/sqlite3-3.5.2"
     },
     {
         "type": "inline",
-        "contents": "56da3e13ed7d28a66f930aa2b2b29db6736a233f08283326e96321dd812030f5",
+        "contents": "4c7fe79840389aaeaf05fd093f795b631b5a98e2bd28d54e555c100f4a9c7a1c",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "sqlite3-3.3.1.sha256"
+        "dest-filename": "sqlite3-3.5.2.sha256"
     },
     {
         "type": "archive",
@@ -2689,16 +2899,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/synchronized-3.4.0+1.tar.gz",
-        "sha256": "63896c27e81b28f8cb4e69ead0d3e8f03f1d1e5fc531a3e579cabed6a2c7c9e5",
+        "url": "https://pub.dev/api/archives/synchronized-3.4.1+2.tar.gz",
+        "sha256": "3a7b5d17422dd0f8d5c6c14feaa5a1c65638b9455f871a96f08437562c046931",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/synchronized-3.4.0+1"
+        "dest": ".pub-cache/hosted/pub.dev/synchronized-3.4.1+2"
     },
     {
         "type": "inline",
-        "contents": "63896c27e81b28f8cb4e69ead0d3e8f03f1d1e5fc531a3e579cabed6a2c7c9e5",
+        "contents": "3a7b5d17422dd0f8d5c6c14feaa5a1c65638b9455f871a96f08437562c046931",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "synchronized-3.4.0+1.sha256"
+        "dest-filename": "synchronized-3.4.1+2.sha256"
     },
     {
         "type": "archive",
@@ -2717,44 +2927,44 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/test-1.30.0.tar.gz",
-        "sha256": "280d6d890011ca966ad08df7e8a4ddfab0fb3aa49f96ed6de56e3521347a9ae7",
+        "url": "https://pub.dev/api/archives/test-1.31.0.tar.gz",
+        "sha256": "8d9ceddbab833f180fbefed08afa76d7c03513dfdba87ffcec2718b02bbcbf20",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/test-1.30.0"
+        "dest": ".pub-cache/hosted/pub.dev/test-1.31.0"
     },
     {
         "type": "inline",
-        "contents": "280d6d890011ca966ad08df7e8a4ddfab0fb3aa49f96ed6de56e3521347a9ae7",
+        "contents": "8d9ceddbab833f180fbefed08afa76d7c03513dfdba87ffcec2718b02bbcbf20",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "test-1.30.0.sha256"
+        "dest-filename": "test-1.31.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/test_api-0.7.10.tar.gz",
-        "sha256": "8161c84903fd860b26bfdefb7963b3f0b68fee7adea0f59ef805ecca346f0c7a",
+        "url": "https://pub.dev/api/archives/test_api-0.7.11.tar.gz",
+        "sha256": "949a932224383300f01be9221c39180316445ecb8e7547f70a41a35bf421fb9e",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/test_api-0.7.10"
+        "dest": ".pub-cache/hosted/pub.dev/test_api-0.7.11"
     },
     {
         "type": "inline",
-        "contents": "8161c84903fd860b26bfdefb7963b3f0b68fee7adea0f59ef805ecca346f0c7a",
+        "contents": "949a932224383300f01be9221c39180316445ecb8e7547f70a41a35bf421fb9e",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "test_api-0.7.10.sha256"
+        "dest-filename": "test_api-0.7.11.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/test_core-0.6.16.tar.gz",
-        "sha256": "0381bd1585d1a924763c308100f2138205252fb90c9d4eeaf28489ee65ccde51",
+        "url": "https://pub.dev/api/archives/test_core-0.6.17.tar.gz",
+        "sha256": "1991d4cfe85d5043241acac92962c3977c8d2f2add1ee73130c7b286417d1d34",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/test_core-0.6.16"
+        "dest": ".pub-cache/hosted/pub.dev/test_core-0.6.17"
     },
     {
         "type": "inline",
-        "contents": "0381bd1585d1a924763c308100f2138205252fb90c9d4eeaf28489ee65ccde51",
+        "contents": "1991d4cfe85d5043241acac92962c3977c8d2f2add1ee73130c7b286417d1d34",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "test_core-0.6.16.sha256"
+        "dest-filename": "test_core-0.6.17.sha256"
     },
     {
         "type": "archive",
@@ -2787,16 +2997,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/timezone-0.11.0.tar.gz",
-        "sha256": "784a5e34d2eb62e1326f24d6f600aaaee452eb8ca8ef2f384a59244e292d158b",
+        "url": "https://pub.dev/api/archives/timezone-0.11.1.tar.gz",
+        "sha256": "981d1020d6ef8fe1e7b3de5054e5b25579ae7c403d7734adc508ffc47668e9cb",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/timezone-0.11.0"
+        "dest": ".pub-cache/hosted/pub.dev/timezone-0.11.1"
     },
     {
         "type": "inline",
-        "contents": "784a5e34d2eb62e1326f24d6f600aaaee452eb8ca8ef2f384a59244e292d158b",
+        "contents": "981d1020d6ef8fe1e7b3de5054e5b25579ae7c403d7734adc508ffc47668e9cb",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "timezone-0.11.0.sha256"
+        "dest-filename": "timezone-0.11.1.sha256"
     },
     {
         "type": "archive",
@@ -2857,16 +3067,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/url_launcher_android-6.3.29.tar.gz",
-        "sha256": "3bb000251e55d4a209aa0e2e563309dc9bb2befea2295fd0cec1f51760aac572",
+        "url": "https://pub.dev/api/archives/url_launcher_android-6.3.32.tar.gz",
+        "sha256": "b413d49b73867ac08dd2f9890efd3cc11f2a0e577618d50843440a1fb3776c32",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/url_launcher_android-6.3.29"
+        "dest": ".pub-cache/hosted/pub.dev/url_launcher_android-6.3.32"
     },
     {
         "type": "inline",
-        "contents": "3bb000251e55d4a209aa0e2e563309dc9bb2befea2295fd0cec1f51760aac572",
+        "contents": "b413d49b73867ac08dd2f9890efd3cc11f2a0e577618d50843440a1fb3776c32",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "url_launcher_android-6.3.29.sha256"
+        "dest-filename": "url_launcher_android-6.3.32.sha256"
     },
     {
         "type": "archive",
@@ -2955,30 +3165,30 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/uuid-4.5.3.tar.gz",
-        "sha256": "1fef9e8e11e2991bb773070d4656b7bd5d850967a2456cfc83cf47925ba79489",
+        "url": "https://pub.dev/api/archives/uuid-4.6.0.tar.gz",
+        "sha256": "9b129329f58692f6e6578329498a8fe9fbe98f090beb764ffbb8ee2eadd01dcd",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/uuid-4.5.3"
+        "dest": ".pub-cache/hosted/pub.dev/uuid-4.6.0"
     },
     {
         "type": "inline",
-        "contents": "1fef9e8e11e2991bb773070d4656b7bd5d850967a2456cfc83cf47925ba79489",
+        "contents": "9b129329f58692f6e6578329498a8fe9fbe98f090beb764ffbb8ee2eadd01dcd",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "uuid-4.5.3.sha256"
+        "dest-filename": "uuid-4.6.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/vector_graphics-1.2.1.tar.gz",
-        "sha256": "4d35a36400983c3457c289d4d553b5308f506ea84f7e51c7a564651b5525209a",
+        "url": "https://pub.dev/api/archives/vector_graphics-1.2.3.tar.gz",
+        "sha256": "9d0e3b9cb16542ad660daee871e726a10d13a93b7b5391677c3160e8f5e83935",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/vector_graphics-1.2.1"
+        "dest": ".pub-cache/hosted/pub.dev/vector_graphics-1.2.3"
     },
     {
         "type": "inline",
-        "contents": "4d35a36400983c3457c289d4d553b5308f506ea84f7e51c7a564651b5525209a",
+        "contents": "9d0e3b9cb16542ad660daee871e726a10d13a93b7b5391677c3160e8f5e83935",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "vector_graphics-1.2.1.sha256"
+        "dest-filename": "vector_graphics-1.2.3.sha256"
     },
     {
         "type": "archive",
@@ -2997,16 +3207,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/vector_graphics_compiler-1.2.2.tar.gz",
-        "sha256": "98e7e94de127b46a86ef46197fff84ff99f3d3b80a708390d717ad731efef598",
+        "url": "https://pub.dev/api/archives/vector_graphics_compiler-1.3.0.tar.gz",
+        "sha256": "4dca4feb77dc3ec7f6e27e49c53241eb8217f55e4f9b12599a27f8903bca5682",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/vector_graphics_compiler-1.2.2"
+        "dest": ".pub-cache/hosted/pub.dev/vector_graphics_compiler-1.3.0"
     },
     {
         "type": "inline",
-        "contents": "98e7e94de127b46a86ef46197fff84ff99f3d3b80a708390d717ad731efef598",
+        "contents": "4dca4feb77dc3ec7f6e27e49c53241eb8217f55e4f9b12599a27f8903bca5682",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "vector_graphics_compiler-1.2.2.sha256"
+        "dest-filename": "vector_graphics_compiler-1.3.0.sha256"
     },
     {
         "type": "archive",
@@ -3039,16 +3249,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/vm_service-15.2.0.tar.gz",
-        "sha256": "0016aef94fc66495ac78af5859181e3f3bf2026bd8eecc72b9565601e19ab360",
+        "url": "https://pub.dev/api/archives/vm_service-15.3.0.tar.gz",
+        "sha256": "5f37239c4851efcef929cea7824e76df7f2f0970aef85d66bbc430afa40e72f0",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/vm_service-15.2.0"
+        "dest": ".pub-cache/hosted/pub.dev/vm_service-15.3.0"
     },
     {
         "type": "inline",
-        "contents": "0016aef94fc66495ac78af5859181e3f3bf2026bd8eecc72b9565601e19ab360",
+        "contents": "5f37239c4851efcef929cea7824e76df7f2f0970aef85d66bbc430afa40e72f0",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "vm_service-15.2.0.sha256"
+        "dest-filename": "vm_service-15.3.0.sha256"
     },
     {
         "type": "archive",
@@ -3137,16 +3347,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/win32-6.2.0.tar.gz",
-        "sha256": "a1fc9eb9248baa05dfc12ed5b66e377b3e23f095eec078e0371622b9033810d9",
+        "url": "https://pub.dev/api/archives/win32-6.4.0.tar.gz",
+        "sha256": "a0b93865d5644f11cf6a8c3f6db909f1ec168958b5805f6cc684adea957cd63d",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/win32-6.2.0"
+        "dest": ".pub-cache/hosted/pub.dev/win32-6.4.0"
     },
     {
         "type": "inline",
-        "contents": "a1fc9eb9248baa05dfc12ed5b66e377b3e23f095eec078e0371622b9033810d9",
+        "contents": "a0b93865d5644f11cf6a8c3f6db909f1ec168958b5805f6cc684adea957cd63d",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "win32-6.2.0.sha256"
+        "dest-filename": "win32-6.4.0.sha256"
     },
     {
         "type": "archive",
@@ -3221,30 +3431,44 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/_fe_analyzer_shared-92.0.0.tar.gz",
-        "sha256": "5b7468c326d2f8a4f630056404ca0d291ade42918f4a3c6233618e724f39da8e",
+        "url": "https://pub.dev/api/archives/yaml_edit-2.2.4.tar.gz",
+        "sha256": "07c9e63ba42519745182b88ca12264a7ba2484d8239958778dfe4d44fe760488",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/_fe_analyzer_shared-92.0.0"
+        "dest": ".pub-cache/hosted/pub.dev/yaml_edit-2.2.4"
     },
     {
         "type": "inline",
-        "contents": "5b7468c326d2f8a4f630056404ca0d291ade42918f4a3c6233618e724f39da8e",
+        "contents": "07c9e63ba42519745182b88ca12264a7ba2484d8239958778dfe4d44fe760488",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "_fe_analyzer_shared-92.0.0.sha256"
+        "dest-filename": "yaml_edit-2.2.4.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/analyzer-9.0.0.tar.gz",
-        "sha256": "70e4b1ef8003c64793a9e268a551a82869a8a96f39deb73dea28084b0e8bf75e",
+        "url": "https://pub.dev/api/archives/_fe_analyzer_shared-95.0.0.tar.gz",
+        "sha256": "0e4db51a88671b676adc09e923ffebd765a1f0c2b04dc19b08b35a335de2972c",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/analyzer-9.0.0"
+        "dest": ".pub-cache/hosted/pub.dev/_fe_analyzer_shared-95.0.0"
     },
     {
         "type": "inline",
-        "contents": "70e4b1ef8003c64793a9e268a551a82869a8a96f39deb73dea28084b0e8bf75e",
+        "contents": "0e4db51a88671b676adc09e923ffebd765a1f0c2b04dc19b08b35a335de2972c",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "analyzer-9.0.0.sha256"
+        "dest-filename": "_fe_analyzer_shared-95.0.0.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/analyzer-10.1.0.tar.gz",
+        "sha256": "3d577a36cde804a46bd1d89e673c3d87c3538c49a39c35d4d336f7760b48c319",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/analyzer-10.1.0"
+    },
+    {
+        "type": "inline",
+        "contents": "3d577a36cde804a46bd1d89e673c3d87c3538c49a39c35d4d336f7760b48c319",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "analyzer-10.1.0.sha256"
     },
     {
         "type": "archive",
@@ -3263,20 +3487,6 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/async-2.13.0.tar.gz",
-        "sha256": "758e6d74e971c3e5aceb4110bfd6698efc7f501675bcfe0c775459a8140750eb",
-        "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/async-2.13.0"
-    },
-    {
-        "type": "inline",
-        "contents": "758e6d74e971c3e5aceb4110bfd6698efc7f501675bcfe0c775459a8140750eb",
-        "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "async-2.13.0.sha256"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
         "url": "https://pub.dev/api/archives/browser_launcher-1.1.3.tar.gz",
         "sha256": "ca2557663d3033845f2ef2b60f94fc249528324fd1affddccb7c63ac0ccd6c67",
         "strip-components": 0,
@@ -3291,16 +3501,30 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/built_value-8.12.1.tar.gz",
-        "sha256": "426cf75afdb23aa74bd4e471704de3f9393f3c7b04c1e2d9c6f1073ae0b8b139",
+        "url": "https://pub.dev/api/archives/built_value-8.12.5.tar.gz",
+        "sha256": "0730c18c770d05636a8f945c32a4d7d81cb6e0f0148c8db4ad12e7748f7e49af",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/built_value-8.12.1"
+        "dest": ".pub-cache/hosted/pub.dev/built_value-8.12.5"
     },
     {
         "type": "inline",
-        "contents": "426cf75afdb23aa74bd4e471704de3f9393f3c7b04c1e2d9c6f1073ae0b8b139",
+        "contents": "0730c18c770d05636a8f945c32a4d7d81cb6e0f0148c8db4ad12e7748f7e49af",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "built_value-8.12.1.sha256"
+        "dest-filename": "built_value-8.12.5.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/code_assets-1.0.0.tar.gz",
+        "sha256": "83ccdaa064c980b5596c35dd64a8d3ecc68620174ab9b90b6343b753aa721687",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/code_assets-1.0.0"
+    },
+    {
+        "type": "inline",
+        "contents": "83ccdaa064c980b5596c35dd64a8d3ecc68620174ab9b90b6343b753aa721687",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "code_assets-1.0.0.sha256"
     },
     {
         "type": "archive",
@@ -3315,6 +3539,20 @@
         "contents": "82fa09800c0b71a2e8396bf3ca6b36b43cd35fe7ba2aeab53b6349ac671d0f5b",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "completion-1.0.2.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/coverage-1.15.0.tar.gz",
+        "sha256": "5da775aa218eaf2151c721b16c01c7676fbfdd99cebba2bf64e8b807a28ff94d",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/coverage-1.15.0"
+    },
+    {
+        "type": "inline",
+        "contents": "5da775aa218eaf2151c721b16c01c7676fbfdd99cebba2bf64e8b807a28ff94d",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "coverage-1.15.0.sha256"
     },
     {
         "type": "archive",
@@ -3347,16 +3585,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/dart_style-3.1.3.tar.gz",
-        "sha256": "a9c30492da18ff84efe2422ba2d319a89942d93e58eb0b73d32abe822ef54b7b",
+        "url": "https://pub.dev/api/archives/dart_style-3.1.7.tar.gz",
+        "sha256": "29f7ecc274a86d32920b1d9cfc7502fa87220da41ec60b55f329559d5732e2b2",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/dart_style-3.1.3"
+        "dest": ".pub-cache/hosted/pub.dev/dart_style-3.1.7"
     },
     {
         "type": "inline",
-        "contents": "a9c30492da18ff84efe2422ba2d319a89942d93e58eb0b73d32abe822ef54b7b",
+        "contents": "29f7ecc274a86d32920b1d9cfc7502fa87220da41ec60b55f329559d5732e2b2",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "dart_style-3.1.3.sha256"
+        "dest-filename": "dart_style-3.1.7.sha256"
     },
     {
         "type": "archive",
@@ -3375,16 +3613,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/dds-5.1.0.tar.gz",
-        "sha256": "06d09ee8b4a0b58e721fd3780aa53a80eeec0e14479899b74be39e4bd522c5ff",
+        "url": "https://pub.dev/api/archives/dds-5.3.0.tar.gz",
+        "sha256": "6673c5b29e502fd44dbf5836685e7c7c16b11c0fa7f91ef241e0cbf0638c8794",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/dds-5.1.0"
+        "dest": ".pub-cache/hosted/pub.dev/dds-5.3.0"
     },
     {
         "type": "inline",
-        "contents": "06d09ee8b4a0b58e721fd3780aa53a80eeec0e14479899b74be39e4bd522c5ff",
+        "contents": "6673c5b29e502fd44dbf5836685e7c7c16b11c0fa7f91ef241e0cbf0638c8794",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "dds-5.1.0.sha256"
+        "dest-filename": "dds-5.3.0.sha256"
     },
     {
         "type": "archive",
@@ -3403,16 +3641,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/devtools_shared-12.0.0.tar.gz",
-        "sha256": "275e48a8a145fa09c7ae433a96fd433c01cc079d39b40acf5ba883236ae2c887",
+        "url": "https://pub.dev/api/archives/devtools_shared-12.1.0.tar.gz",
+        "sha256": "2daf7a9fba6a470668b26ecbd04200f7bf992aad81a2c31d12457c7791419dea",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/devtools_shared-12.0.0"
+        "dest": ".pub-cache/hosted/pub.dev/devtools_shared-12.1.0"
     },
     {
         "type": "inline",
-        "contents": "275e48a8a145fa09c7ae433a96fd433c01cc079d39b40acf5ba883236ae2c887",
+        "contents": "2daf7a9fba6a470668b26ecbd04200f7bf992aad81a2c31d12457c7791419dea",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "devtools_shared-12.0.0.sha256"
+        "dest-filename": "devtools_shared-12.1.0.sha256"
     },
     {
         "type": "archive",
@@ -3431,16 +3669,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/dwds-26.2.3.tar.gz",
-        "sha256": "982c5727eeb966dbc6099087b6622be3633fef9616ead8d78d3da737d363a077",
+        "url": "https://pub.dev/api/archives/dwds-26.2.5.tar.gz",
+        "sha256": "37829d11cc9ef3fe4cd8c6263873b4e8b640a8862d4d741b8fa58dd1eeadfb48",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/dwds-26.2.3"
+        "dest": ".pub-cache/hosted/pub.dev/dwds-26.2.5"
     },
     {
         "type": "inline",
-        "contents": "982c5727eeb966dbc6099087b6622be3633fef9616ead8d78d3da737d363a077",
+        "contents": "37829d11cc9ef3fe4cd8c6263873b4e8b640a8862d4d741b8fa58dd1eeadfb48",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "dwds-26.2.3.sha256"
+        "dest-filename": "dwds-26.2.5.sha256"
     },
     {
         "type": "archive",
@@ -3455,20 +3693,6 @@
         "contents": "de1fce715ab013cdfb00befc3bdf0914bea5e409c3a567b7f8f144bc061611a7",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "extension_discovery-2.1.0.sha256"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/ffi-2.1.4.tar.gz",
-        "sha256": "289279317b4b16eb2bb7e271abccd4bf84ec9bdcbe999e278a94b804f5630418",
-        "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/ffi-2.1.4"
-    },
-    {
-        "type": "inline",
-        "contents": "289279317b4b16eb2bb7e271abccd4bf84ec9bdcbe999e278a94b804f5630418",
-        "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "ffi-2.1.4.sha256"
     },
     {
         "type": "archive",
@@ -3501,30 +3725,30 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/hooks-1.0.0.tar.gz",
-        "sha256": "5d309c86e7ce34cd8e37aa71cb30cb652d3829b900ab145e4d9da564b31d59f7",
+        "url": "https://pub.dev/api/archives/hooks-1.0.2.tar.gz",
+        "sha256": "e79ed1e8e1929bc6ecb6ec85f0cb519c887aa5b423705ded0d0f2d9226def388",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/hooks-1.0.0"
+        "dest": ".pub-cache/hosted/pub.dev/hooks-1.0.2"
     },
     {
         "type": "inline",
-        "contents": "5d309c86e7ce34cd8e37aa71cb30cb652d3829b900ab145e4d9da564b31d59f7",
+        "contents": "e79ed1e8e1929bc6ecb6ec85f0cb519c887aa5b423705ded0d0f2d9226def388",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "hooks-1.0.0.sha256"
+        "dest-filename": "hooks-1.0.2.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/hooks_runner-1.0.1.tar.gz",
-        "sha256": "87832cd552d8ddc6014c240ee724f37bc9ea5141aa74a21658b73d22358f43fd",
+        "url": "https://pub.dev/api/archives/hooks_runner-1.1.1.tar.gz",
+        "sha256": "1da87338673b2c0618cd65ad07cebb6244f69e70e9ee0aad3288605eba1e18dc",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/hooks_runner-1.0.1"
+        "dest": ".pub-cache/hosted/pub.dev/hooks_runner-1.1.1"
     },
     {
         "type": "inline",
-        "contents": "87832cd552d8ddc6014c240ee724f37bc9ea5141aa74a21658b73d22358f43fd",
+        "contents": "1da87338673b2c0618cd65ad07cebb6244f69e70e9ee0aad3288605eba1e18dc",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "hooks_runner-1.0.1.sha256"
+        "dest-filename": "hooks_runner-1.1.1.sha256"
     },
     {
         "type": "archive",
@@ -3543,30 +3767,30 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/json_annotation-4.9.0.tar.gz",
-        "sha256": "1ce844379ca14835a50d2f019a3099f419082cfdd231cd86a142af94dd5c6bb1",
+        "url": "https://pub.dev/api/archives/json_annotation-4.11.0.tar.gz",
+        "sha256": "cb09e7dac6210041fad964ed7fbee004f14258b4eca4040f72d1234062ace4c8",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/json_annotation-4.9.0"
+        "dest": ".pub-cache/hosted/pub.dev/json_annotation-4.11.0"
     },
     {
         "type": "inline",
-        "contents": "1ce844379ca14835a50d2f019a3099f419082cfdd231cd86a142af94dd5c6bb1",
+        "contents": "cb09e7dac6210041fad964ed7fbee004f14258b4eca4040f72d1234062ace4c8",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "json_annotation-4.9.0.sha256"
+        "dest-filename": "json_annotation-4.11.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/json_rpc_2-4.0.0.tar.gz",
-        "sha256": "3c46c2633aec07810c3d6a2eb08d575b5b4072980db08f1344e66aeb53d6e4a7",
+        "url": "https://pub.dev/api/archives/json_rpc_2-4.1.0.tar.gz",
+        "sha256": "82dfd37d3b2e5030ae4729e1d7f5538cbc45eb1c73d618b9272931facac3bec1",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/json_rpc_2-4.0.0"
+        "dest": ".pub-cache/hosted/pub.dev/json_rpc_2-4.1.0"
     },
     {
         "type": "inline",
-        "contents": "3c46c2633aec07810c3d6a2eb08d575b5b4072980db08f1344e66aeb53d6e4a7",
+        "contents": "82dfd37d3b2e5030ae4729e1d7f5538cbc45eb1c73d618b9272931facac3bec1",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "json_rpc_2-4.0.0.sha256"
+        "dest-filename": "json_rpc_2-4.1.0.sha256"
     },
     {
         "type": "archive",
@@ -3585,16 +3809,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/mustache_template-2.0.2.tar.gz",
-        "sha256": "daa42be75f2ccfb287c24a75e7ac594f2ea0b32bf9ebe7c15154aa45b2dfb2de",
+        "url": "https://pub.dev/api/archives/mustache_template-2.0.4.tar.gz",
+        "sha256": "544ff0b837836f5ad6b351e7a676ff7c2cad4fa412c465908aeb9358caddb6fc",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/mustache_template-2.0.2"
+        "dest": ".pub-cache/hosted/pub.dev/mustache_template-2.0.4"
     },
     {
         "type": "inline",
-        "contents": "daa42be75f2ccfb287c24a75e7ac594f2ea0b32bf9ebe7c15154aa45b2dfb2de",
+        "contents": "544ff0b837836f5ad6b351e7a676ff7c2cad4fa412c465908aeb9358caddb6fc",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "mustache_template-2.0.2.sha256"
+        "dest-filename": "mustache_template-2.0.4.sha256"
     },
     {
         "type": "archive",
@@ -3613,34 +3837,6 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/petitparser-7.0.1.tar.gz",
-        "sha256": "1a97266a94f7350d30ae522c0af07890c70b8e62c71e8e3920d1db4d23c057d1",
-        "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/petitparser-7.0.1"
-    },
-    {
-        "type": "inline",
-        "contents": "1a97266a94f7350d30ae522c0af07890c70b8e62c71e8e3920d1db4d23c057d1",
-        "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "petitparser-7.0.1.sha256"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/process-5.0.5.tar.gz",
-        "sha256": "c6248e4526673988586e8c00bb22a49210c258dc91df5227d5da9748ecf79744",
-        "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/process-5.0.5"
-    },
-    {
-        "type": "inline",
-        "contents": "c6248e4526673988586e8c00bb22a49210c258dc91df5227d5da9748ecf79744",
-        "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "process-5.0.5.sha256"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
         "url": "https://pub.dev/api/archives/shelf_proxy-1.0.4.tar.gz",
         "sha256": "a71d2307f4393211930c590c3d2c00630f6c5a7a77edc1ef6436dfd85a6a7ee3",
         "strip-components": 0,
@@ -3651,20 +3847,6 @@
         "contents": "a71d2307f4393211930c590c3d2c00630f6c5a7a77edc1ef6436dfd85a6a7ee3",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "shelf_proxy-1.0.4.sha256"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/source_span-1.10.1.tar.gz",
-        "sha256": "254ee5351d6cb365c859e20ee823c3bb479bf4a293c22d17a9f1bf144ce86f7c",
-        "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/source_span-1.10.1"
-    },
-    {
-        "type": "inline",
-        "contents": "254ee5351d6cb365c859e20ee823c3bb479bf4a293c22d17a9f1bf144ce86f7c",
-        "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "source_span-1.10.1.sha256"
     },
     {
         "type": "archive",
@@ -3725,16 +3907,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/unified_analytics-8.0.10.tar.gz",
-        "sha256": "ce091b2bec81f26a7d4cf83212380ac314bfa4f6061f8c2168274ba5fd828a23",
+        "url": "https://pub.dev/api/archives/unified_analytics-8.0.14.tar.gz",
+        "sha256": "406724e9231f8e30119673133c1087f9b24e2a75ba7111ea071253d57bb8f3b9",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/unified_analytics-8.0.10"
+        "dest": ".pub-cache/hosted/pub.dev/unified_analytics-8.0.14"
     },
     {
         "type": "inline",
-        "contents": "ce091b2bec81f26a7d4cf83212380ac314bfa4f6061f8c2168274ba5fd828a23",
+        "contents": "406724e9231f8e30119673133c1087f9b24e2a75ba7111ea071253d57bb8f3b9",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "unified_analytics-8.0.10.sha256"
+        "dest-filename": "unified_analytics-8.0.14.sha256"
     },
     {
         "type": "archive",
@@ -3753,16 +3935,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/uuid-4.5.2.tar.gz",
-        "sha256": "a11b666489b1954e01d992f3d601b1804a33937b5a8fe677bd26b8a9f96f96e8",
+        "url": "https://pub.dev/api/archives/uuid-4.5.3.tar.gz",
+        "sha256": "1fef9e8e11e2991bb773070d4656b7bd5d850967a2456cfc83cf47925ba79489",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/uuid-4.5.2"
+        "dest": ".pub-cache/hosted/pub.dev/uuid-4.5.3"
     },
     {
         "type": "inline",
-        "contents": "a11b666489b1954e01d992f3d601b1804a33937b5a8fe677bd26b8a9f96f96e8",
+        "contents": "1fef9e8e11e2991bb773070d4656b7bd5d850967a2456cfc83cf47925ba79489",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "uuid-4.5.2.sha256"
+        "dest-filename": "uuid-4.5.3.sha256"
     },
     {
         "type": "archive",
@@ -3809,20 +3991,6 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/watcher-1.2.0.tar.gz",
-        "sha256": "f52385d4f73589977c80797e60fe51014f7f2b957b5e9a62c3f6ada439889249",
-        "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/watcher-1.2.0"
-    },
-    {
-        "type": "inline",
-        "contents": "f52385d4f73589977c80797e60fe51014f7f2b957b5e9a62c3f6ada439889249",
-        "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "watcher-1.2.0.sha256"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
         "url": "https://pub.dev/api/archives/webdriver-3.1.0.tar.gz",
         "sha256": "2f3a14ca026957870cfd9c635b83507e0e51d8091568e90129fbf805aba7cade",
         "strip-components": 0,
@@ -3835,45 +4003,23 @@
         "dest-filename": "webdriver-3.1.0.sha256"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/yaml_edit-2.2.3.tar.gz",
-        "sha256": "ec709065bb2c911b336853b67f3732dd13e0336bd065cc2f1061d7610ddf45e3",
-        "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/yaml_edit-2.2.3"
-    },
-    {
-        "type": "inline",
-        "contents": "ec709065bb2c911b336853b67f3732dd13e0336bd065cc2f1061d7610ddf45e3",
-        "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "yaml_edit-2.2.3.sha256"
-    },
-    {
         "type": "file",
         "only-arches": [
             "x86_64"
         ],
-        "url": "https://github.com/simolus3/sqlite3.dart/releases/download/sqlite3-3.3.1/libsqlite3.x64.linux.so",
-        "sha256": "148c51687ac3be3487873845690ddbf3d8ee099a5521a193c856008907fb7361",
-        "dest": "./.dart_tool/hooks_runner/shared/sqlite3/build/download-static"
+        "url": "https://github.com/simolus3/sqlite3.dart/releases/download/sqlite3-3.5.2/libsqlite3.x64.linux.so",
+        "sha256": "b17729184e5a2818055ecbddd5ed6642521bfe6e56aafa472330e483c0e2e0d2",
+        "dest": "./.dart_tool/hooks_runner/shared/sqlite3/build/download-b1772918",
+        "dest-filename": "libsqlite3.so"
     },
     {
         "type": "file",
         "only-arches": [
             "aarch64"
         ],
-        "url": "https://github.com/simolus3/sqlite3.dart/releases/download/sqlite3-3.3.1/libsqlite3.arm64.linux.so",
-        "sha256": "0541443d38cd79160f6262e6a59892657d640459fef8acdd1f4f29a4ed0d2612",
-        "dest": "./.dart_tool/hooks_runner/shared/sqlite3/build/download-static"
-    },
-    {
-        "type": "patch",
-        "path": "generated/patches/sqlite3/assets.dart.patch",
-        "dest": "./.pub-cache/hosted/pub.dev/sqlite3-3.3.1"
-    },
-    {
-        "type": "patch",
-        "path": "patches/sqlite3/build.dart.patch",
-        "dest": "./.pub-cache/hosted/pub.dev/sqlite3-3.3.1"
+        "url": "https://github.com/simolus3/sqlite3.dart/releases/download/sqlite3-3.5.2/libsqlite3.arm64.linux.so",
+        "sha256": "7f0db19fdb987298ab8def51431aba5cec28a81685e8b62cebbc7402df090a16",
+        "dest": "./.dart_tool/hooks_runner/shared/sqlite3/build/download-7f0db19f",
+        "dest-filename": "libsqlite3.so"
     }
 ]
