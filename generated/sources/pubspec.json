@@ -16,6 +16,20 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/adaptive_actions-0.3.0.tar.gz",
+        "sha256": "43f45c4a90bc57c9947bd1dbdb26cf6bd468c5ea04e04d0cbc049569c24979ba",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/adaptive_actions-0.3.0"
+    },
+    {
+        "type": "inline",
+        "contents": "43f45c4a90bc57c9947bd1dbdb26cf6bd468c5ea04e04d0cbc049569c24979ba",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "adaptive_actions-0.3.0.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://pub.dev/api/archives/analyzer-12.1.0.tar.gz",
         "sha256": "663efa951fb8a45e06f491223a604c93820598f20e6a99c25617a1576065e8b7",
         "strip-components": 0,
@@ -1495,6 +1509,20 @@
         "contents": "dfd5a80599cf0165756e3181807ed3e77daf6dd4137caaad72d0b7931597650b",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "io-1.0.5.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/ios_window_control_layout-0.3.0.tar.gz",
+        "sha256": "5cbec9b909458871216560d2a7c975b39856e2a09717793c7a3508d7b3120ab4",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/ios_window_control_layout-0.3.0"
+    },
+    {
+        "type": "inline",
+        "contents": "5cbec9b909458871216560d2a7c975b39856e2a09717793c7a3508d7b3120ab4",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "ios_window_control_layout-0.3.0.sha256"
     },
     {
         "type": "archive",
