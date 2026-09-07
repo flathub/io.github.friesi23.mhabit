@@ -16,16 +16,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/adaptive_actions-0.3.0.tar.gz",
-        "sha256": "43f45c4a90bc57c9947bd1dbdb26cf6bd468c5ea04e04d0cbc049569c24979ba",
+        "url": "https://pub.dev/api/archives/adaptive_actions-0.5.0.tar.gz",
+        "sha256": "62326e6b6e02d839e00a9800c176196c87a197239dcd33b36c69c58a46f4274e",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/adaptive_actions-0.3.0"
+        "dest": ".pub-cache/hosted/pub.dev/adaptive_actions-0.5.0"
     },
     {
         "type": "inline",
-        "contents": "43f45c4a90bc57c9947bd1dbdb26cf6bd468c5ea04e04d0cbc049569c24979ba",
+        "contents": "62326e6b6e02d839e00a9800c176196c87a197239dcd33b36c69c58a46f4274e",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "adaptive_actions-0.3.0.sha256"
+        "dest-filename": "adaptive_actions-0.5.0.sha256"
     },
     {
         "type": "archive",
@@ -1513,16 +1513,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/ios_window_control_layout-0.3.0.tar.gz",
-        "sha256": "5cbec9b909458871216560d2a7c975b39856e2a09717793c7a3508d7b3120ab4",
+        "url": "https://pub.dev/api/archives/ios_window_control_layout-0.5.0.tar.gz",
+        "sha256": "d76e4b98d97d55f093df7f60dc787711c89483cf0d17d845224948321ad10c64",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/ios_window_control_layout-0.3.0"
+        "dest": ".pub-cache/hosted/pub.dev/ios_window_control_layout-0.5.0"
     },
     {
         "type": "inline",
-        "contents": "5cbec9b909458871216560d2a7c975b39856e2a09717793c7a3508d7b3120ab4",
+        "contents": "d76e4b98d97d55f093df7f60dc787711c89483cf0d17d845224948321ad10c64",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "ios_window_control_layout-0.3.0.sha256"
+        "dest-filename": "ios_window_control_layout-0.5.0.sha256"
     },
     {
         "type": "archive",
