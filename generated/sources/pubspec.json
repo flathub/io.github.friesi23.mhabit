@@ -16,16 +16,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/adaptive_actions-0.5.0.tar.gz",
-        "sha256": "62326e6b6e02d839e00a9800c176196c87a197239dcd33b36c69c58a46f4274e",
+        "url": "https://pub.dev/api/archives/adaptive_actions-0.6.1.tar.gz",
+        "sha256": "a3ff06e57e401c288350852c523527b570e0e4a4fe8d8533208ddb1ba30fc2df",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/adaptive_actions-0.5.0"
+        "dest": ".pub-cache/hosted/pub.dev/adaptive_actions-0.6.1"
     },
     {
         "type": "inline",
-        "contents": "62326e6b6e02d839e00a9800c176196c87a197239dcd33b36c69c58a46f4274e",
+        "contents": "a3ff06e57e401c288350852c523527b570e0e4a4fe8d8533208ddb1ba30fc2df",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "adaptive_actions-0.5.0.sha256"
+        "dest-filename": "adaptive_actions-0.6.1.sha256"
     },
     {
         "type": "archive",
