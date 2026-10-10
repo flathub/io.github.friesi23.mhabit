@@ -16,16 +16,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/adaptive_actions-0.6.1.tar.gz",
-        "sha256": "a3ff06e57e401c288350852c523527b570e0e4a4fe8d8533208ddb1ba30fc2df",
+        "url": "https://pub.dev/api/archives/adaptive_actions-0.7.1.tar.gz",
+        "sha256": "6dd2141076d270382f00c5b8d505299768f41bc8dce6780f8d5945227d0d2855",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/adaptive_actions-0.6.1"
+        "dest": ".pub-cache/hosted/pub.dev/adaptive_actions-0.7.1"
     },
     {
         "type": "inline",
-        "contents": "a3ff06e57e401c288350852c523527b570e0e4a4fe8d8533208ddb1ba30fc2df",
+        "contents": "6dd2141076d270382f00c5b8d505299768f41bc8dce6780f8d5945227d0d2855",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "adaptive_actions-0.6.1.sha256"
+        "dest-filename": "adaptive_actions-0.7.1.sha256"
     },
     {
         "type": "archive",
@@ -963,6 +963,20 @@
         "contents": "a3183753bbcfc3af106224bff3ab3e1844b73f58062136b7499919f49f3667e7",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "flex_seed_scheme-4.0.1.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/flutter_adaptive_sidebar-0.3.2.tar.gz",
+        "sha256": "fff0dc05ac904886a768ffaeb77957d4fa6072de2d8fbe904ad0c223f57a4be3",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/flutter_adaptive_sidebar-0.3.2"
+    },
+    {
+        "type": "inline",
+        "contents": "fff0dc05ac904886a768ffaeb77957d4fa6072de2d8fbe904ad0c223f57a4be3",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "flutter_adaptive_sidebar-0.3.2.sha256"
     },
     {
         "type": "archive",
