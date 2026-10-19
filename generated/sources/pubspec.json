@@ -1709,6 +1709,20 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/macos_window_utils-1.9.1.tar.gz",
+        "sha256": "cb918e1ff0b31fdaa5cd8631eded7c24bd72e1025cf1f95c819e483f0057c652",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/macos_window_utils-1.9.1"
+    },
+    {
+        "type": "inline",
+        "contents": "cb918e1ff0b31fdaa5cd8631eded7c24bd72e1025cf1f95c819e483f0057c652",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "macos_window_utils-1.9.1.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://pub.dev/api/archives/markdown-7.3.1.tar.gz",
         "sha256": "ee85086ad7698b42522c6ad42fe195f1b9898e4d974a1af4576c1a3a176cada9",
         "strip-components": 0,
@@ -2255,6 +2269,20 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/pigeon-27.3.0.tar.gz",
+        "sha256": "f90254ef7b22db026fd8d5fd44718fd60697d50968a144a8bc251e5e95d79e10",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/pigeon-27.3.0"
+    },
+    {
+        "type": "inline",
+        "contents": "f90254ef7b22db026fd8d5fd44718fd60697d50968a144a8bc251e5e95d79e10",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "pigeon-27.3.0.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://pub.dev/api/archives/platform-3.1.6.tar.gz",
         "sha256": "5d6b1b0036a5f331ebc77c850ebc8506cbc1e9416c27e59b439f917a902a4984",
         "strip-components": 0,
@@ -2461,6 +2489,76 @@
         "contents": "5c3004a4a8dbb94bd4bf5412a4def4acdaa12e12f269737a5751369e12d1a962",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "rxdart-0.28.0.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/screen_retriever-0.2.2.tar.gz",
+        "sha256": "ace919117a7520c13a50a6259e60c4a0d4cbe98809468792a91b5c5adada2aa6",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/screen_retriever-0.2.2"
+    },
+    {
+        "type": "inline",
+        "contents": "ace919117a7520c13a50a6259e60c4a0d4cbe98809468792a91b5c5adada2aa6",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "screen_retriever-0.2.2.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/screen_retriever_linux-0.2.2.tar.gz",
+        "sha256": "7b52006a5ceae1f3d5af7f77188c3290d6e7d8ded16d99809bea84967c65c257",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/screen_retriever_linux-0.2.2"
+    },
+    {
+        "type": "inline",
+        "contents": "7b52006a5ceae1f3d5af7f77188c3290d6e7d8ded16d99809bea84967c65c257",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "screen_retriever_linux-0.2.2.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/screen_retriever_macos-0.2.2.tar.gz",
+        "sha256": "a1489b99cce597c45a54b9aae1cd94c8d4705353b7e0bb2457a6e4de44e0ad8a",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/screen_retriever_macos-0.2.2"
+    },
+    {
+        "type": "inline",
+        "contents": "a1489b99cce597c45a54b9aae1cd94c8d4705353b7e0bb2457a6e4de44e0ad8a",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "screen_retriever_macos-0.2.2.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/screen_retriever_platform_interface-0.2.2.tar.gz",
+        "sha256": "94a5535277510a63184ca178ce12a1449bc0b38618879aa1c18bf57369c5064a",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/screen_retriever_platform_interface-0.2.2"
+    },
+    {
+        "type": "inline",
+        "contents": "94a5535277510a63184ca178ce12a1449bc0b38618879aa1c18bf57369c5064a",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "screen_retriever_platform_interface-0.2.2.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/screen_retriever_windows-0.2.2.tar.gz",
+        "sha256": "dafc6922b0bfbf1d48cf3ccbf519b4fff47bdcb820da1728ea6db675fecc9324",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/screen_retriever_windows-0.2.2"
+    },
+    {
+        "type": "inline",
+        "contents": "dafc6922b0bfbf1d48cf3ccbf519b4fff47bdcb820da1728ea6db675fecc9324",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "screen_retriever_windows-0.2.2.sha256"
     },
     {
         "type": "archive",
@@ -3413,6 +3511,20 @@
         "contents": "73b1d78920a9d6e03f8b4e43e612b87bf3152a0e5c5e5150267762b7c4116904",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "win32_registry-3.0.3.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/window_manager-0.5.2.tar.gz",
+        "sha256": "05c231fd7b23d2380f14c5cc10b7b93d60d4fa4a2fb4e0f032de27e44b5560e9",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/window_manager-0.5.2"
+    },
+    {
+        "type": "inline",
+        "contents": "05c231fd7b23d2380f14c5cc10b7b93d60d4fa4a2fb4e0f032de27e44b5560e9",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "window_manager-0.5.2.sha256"
     },
     {
         "type": "archive",
