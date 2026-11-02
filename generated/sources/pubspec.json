@@ -967,16 +967,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_adaptive_sidebar-0.3.2.tar.gz",
-        "sha256": "fff0dc05ac904886a768ffaeb77957d4fa6072de2d8fbe904ad0c223f57a4be3",
+        "url": "https://pub.dev/api/archives/flutter_adaptive_sidebar-0.4.0.tar.gz",
+        "sha256": "264a87644e79912e7249b3c211fd6b594fcd668da52f04b07156c0bdfa8c11c9",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_adaptive_sidebar-0.3.2"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_adaptive_sidebar-0.4.0"
     },
     {
         "type": "inline",
-        "contents": "fff0dc05ac904886a768ffaeb77957d4fa6072de2d8fbe904ad0c223f57a4be3",
+        "contents": "264a87644e79912e7249b3c211fd6b594fcd668da52f04b07156c0bdfa8c11c9",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_adaptive_sidebar-0.3.2.sha256"
+        "dest-filename": "flutter_adaptive_sidebar-0.4.0.sha256"
     },
     {
         "type": "archive",
@@ -1275,6 +1275,20 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/foldable-1.0.5.tar.gz",
+        "sha256": "c3f539ba3729716a5aacfcc4c3199d6ae0dee6e55f227d19ba25ef6fd96d804a",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/foldable-1.0.5"
+    },
+    {
+        "type": "inline",
+        "contents": "c3f539ba3729716a5aacfcc4c3199d6ae0dee6e55f227d19ba25ef6fd96d804a",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "foldable-1.0.5.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://pub.dev/api/archives/frontend_server_client-4.0.0.tar.gz",
         "sha256": "f64a0333a82f30b0cca061bc3d143813a486dc086b574bfb233b7c1372427694",
         "strip-components": 0,
@@ -1383,6 +1397,20 @@
         "contents": "5353a83ffe3e3eca7df0abfb72dcf3fa66cc56b953728e7113ad4ad88497cf21",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "highlight-0.7.0.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/home_widget-0.10.0.tar.gz",
+        "sha256": "1dbfdfbb3b47de24639adfba352050d85d66af112b9cc3ec5bf7627a7813abcb",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/home_widget-0.10.0"
+    },
+    {
+        "type": "inline",
+        "contents": "1dbfdfbb3b47de24639adfba352050d85d66af112b9cc3ec5bf7627a7813abcb",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "home_widget-0.10.0.sha256"
     },
     {
         "type": "archive",
@@ -1527,16 +1555,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/ios_window_control_layout-0.5.0.tar.gz",
-        "sha256": "d76e4b98d97d55f093df7f60dc787711c89483cf0d17d845224948321ad10c64",
+        "url": "https://pub.dev/api/archives/ios_window_control_layout-0.6.0.tar.gz",
+        "sha256": "7ba7add276e8218bc4d98d711c53cffba065113b57e0c336e06a78c7f410acb2",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/ios_window_control_layout-0.5.0"
+        "dest": ".pub-cache/hosted/pub.dev/ios_window_control_layout-0.6.0"
     },
     {
         "type": "inline",
-        "contents": "d76e4b98d97d55f093df7f60dc787711c89483cf0d17d845224948321ad10c64",
+        "contents": "7ba7add276e8218bc4d98d711c53cffba065113b57e0c336e06a78c7f410acb2",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "ios_window_control_layout-0.5.0.sha256"
+        "dest-filename": "ios_window_control_layout-0.6.0.sha256"
     },
     {
         "type": "archive",
