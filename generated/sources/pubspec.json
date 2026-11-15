@@ -1639,6 +1639,20 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/l10n_esperanto-2.0.14.tar.gz",
+        "sha256": "bc584875ed5de76bd7216c6b2ee93614eac59b110cb0730f3a4b1fa97e39778d",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/l10n_esperanto-2.0.14"
+    },
+    {
+        "type": "inline",
+        "contents": "bc584875ed5de76bd7216c6b2ee93614eac59b110cb0730f3a4b1fa97e39778d",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "l10n_esperanto-2.0.14.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://pub.dev/api/archives/leak_tracker-11.0.2.tar.gz",
         "sha256": "33e2e26bdd85a0112ec15400c8cbffea70d0f9c3407491f672a2fad47915e2de",
         "strip-components": 0,
@@ -2815,16 +2829,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/simple_webdav_client-0.2.0.tar.gz",
-        "sha256": "9c3d52e9a969d26e48bb071ad8649f3d04d1db653f3342ec4a08aab331a1e9ff",
+        "url": "https://pub.dev/api/archives/simple_webdav_client-0.3.0.tar.gz",
+        "sha256": "63d1f0d07b5236d4a661ef02fab2e56b786714f280a6e264e22752b444bef76f",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/simple_webdav_client-0.2.0"
+        "dest": ".pub-cache/hosted/pub.dev/simple_webdav_client-0.3.0"
     },
     {
         "type": "inline",
-        "contents": "9c3d52e9a969d26e48bb071ad8649f3d04d1db653f3342ec4a08aab331a1e9ff",
+        "contents": "63d1f0d07b5236d4a661ef02fab2e56b786714f280a6e264e22752b444bef76f",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "simple_webdav_client-0.2.0.sha256"
+        "dest-filename": "simple_webdav_client-0.3.0.sha256"
     },
     {
         "type": "archive",
@@ -3217,6 +3231,20 @@
         "contents": "f63cbc48103236abf48e345e07a03ce5757ea86285ed313a6a032596ed9301e2",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "universal_io-2.3.1.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/unorm_dart-0.3.3.tar.gz",
+        "sha256": "b4f4d2aff27d65a5fc37f400d4c09e55d7535359315acbe3b895a9add4de3a23",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/unorm_dart-0.3.3"
+    },
+    {
+        "type": "inline",
+        "contents": "b4f4d2aff27d65a5fc37f400d4c09e55d7535359315acbe3b895a9add4de3a23",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "unorm_dart-0.3.3.sha256"
     },
     {
         "type": "archive",
