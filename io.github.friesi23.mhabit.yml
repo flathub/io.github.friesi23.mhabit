@@ -52,18 +52,19 @@ modules:
     build-commands:
       - setup-flutter.sh
       - flutter build linux --release --no-pub --dart-define=APP_DISTRIBUTION=flathub
-      - install -D $BUNDLE_PATH/mhabit /app/bin/mhabit
+      - sh flatpak/install-linux-bundle.sh "$BUNDLE_PATH"
       - install -Dm644 assets/logo/macos.svg /app/share/icons/hicolor/scalable/apps/io.github.friesi23.mhabit.svg
       - install -Dm644 flatpak/io.github.friesi23.mhabit.metainfo.xml -t /app/share/metainfo
       - install -Dm644 flatpak/io.github.friesi23.mhabit.desktop -t /app/share/applications
-      - cp -r $BUNDLE_PATH/lib /app/bin/lib
-      - cp -r $BUNDLE_PATH/data /app/bin/data
     sources:
       - type: git
         url: https://github.com/FriesI23/mhabit.git
         tag: v1.27.20+209
         commit: 04e078a5af72ee11e7b321cd71b198591a42b43e
         disable-submodules: true
+      - type: file
+        path: scripts/install-linux-bundle.sh
+        dest: flatpak
       - generated/sources/pubspec.json
     modules:
       - generated/modules/flutter-sdk-3.44.9.json
