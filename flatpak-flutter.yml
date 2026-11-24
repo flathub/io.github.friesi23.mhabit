@@ -47,7 +47,6 @@ modules:
         url: https://cdn.jsdelivr.net/gh/notofonts/noto-cjk@Sans2.004/LICENSE
         sha256: 6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2
         dest-filename: NotoSansCJK.LICENSE.txt
-
   - name: mhabit
     buildsystem: simple
     build-options:
@@ -71,12 +70,12 @@ modules:
     sources:
       - type: git
         url: https://github.com/FriesI23/mhabit.git
-        tag: v1.27.20+209
-        commit: 04e078a5af72ee11e7b321cd71b198591a42b43e
+        tag: v1.27.24+213
+        commit: ae95c66a8b0d05fbd464cad9ed028e171c89c9f0
         disable-submodules: true
       - type: git
         url: https://github.com/flutter/flutter.git
-        tag: 3.44.9
+        tag: 3.47.9
         dest: flutter
       - type: file
         path: scripts/install-linux-bundle.sh

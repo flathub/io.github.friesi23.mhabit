@@ -74,12 +74,12 @@ modules:
     sources:
       - type: git
         url: https://github.com/FriesI23/mhabit.git
-        tag: v1.27.20+209
-        commit: 04e078a5af72ee11e7b321cd71b198591a42b43e
+        tag: v1.27.24+213
+        commit: ae95c66a8b0d05fbd464cad9ed028e171c89c9f0
         disable-submodules: true
       - type: file
         path: scripts/install-linux-bundle.sh
         dest: flatpak
       - generated/sources/pubspec.json
     modules:
-      - generated/modules/flutter-sdk-3.44.9.json
+      - generated/modules/flutter-sdk-3.47.9.json
