@@ -70,8 +70,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/FriesI23/mhabit.git
-        tag: v1.27.24+213
-        commit: ae95c66a8b0d05fbd464cad9ed028e171c89c9f0
+        tag: v1.27.25+214
+        commit: bbaad4d3f8380e0fc7d8d74cd1fdbde803338569
         disable-submodules: true
       - type: git
         url: https://github.com/flutter/flutter.git
