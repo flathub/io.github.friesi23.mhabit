@@ -77,6 +77,8 @@ modules:
         tag: v1.27.25+214
         commit: bbaad4d3f8380e0fc7d8d74cd1fdbde803338569
         disable-submodules: true
+      - type: patch
+        path: patches/linux-startup-trace.patch
       - type: file
         path: scripts/install-linux-bundle.sh
         dest: flatpak

@@ -1,0 +1,445 @@
+diff --git a/lib/entries/app/entry.dart b/lib/entries/app/entry.dart
+index 49834508..81a52e38 100644
+--- a/lib/entries/app/entry.dart
++++ b/lib/entries/app/entry.dart
+@@ -31,6 +31,7 @@ import '../../common/utils.dart';
+ import '../../extensions/context_extensions.dart';
+ import '../../l10n/localizations.dart';
+ import '../../logging/helper.dart';
++import '../../logging/linux_startup_trace.dart';
+ import '../../models/app_apple_sidebar_style_mode.dart';
+ import '../../models/app_entry.dart';
+ import '../../models/app_sync_tasks.dart';
+@@ -135,6 +136,7 @@ class AppEntry extends StatelessWidget {
+
+   @override
+   Widget build(BuildContext context) {
++    LinuxStartupTrace.rootBuild();
+     appLog.debugger.info("App Running Now", ex: [AppClock().now(), appFlavor]);
+     return ProfileBuilder(
+       handlers: _profileHandlers,
+diff --git a/lib/logging/linux_startup_trace.dart b/lib/logging/linux_startup_trace.dart
+new file mode 100644
+index 00000000..9208fdb2
+--- /dev/null
++++ b/lib/logging/linux_startup_trace.dart
+@@ -0,0 +1,60 @@
++// Copyright 2023 Fries_I23
++//
++// Licensed under the Apache License, Version 2.0 (the "License");
++// you may not use this file except in compliance with the License.
++// You may obtain a copy of the License at
++//
++//     http://www.apache.org/licenses/LICENSE-2.0
++//
++// Unless required by applicable law or agreed to in writing, software
++// distributed under the License is distributed on an "AS IS" BASIS,
++// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++// See the License for the specific language governing permissions and
++// limitations under the License.
++
++import 'dart:io';
++
++import 'package:flutter/foundation.dart' show kIsWeb;
++
++/// Temporary diagnostics for the Linux startup hang in issue #727.
++abstract final class LinuxStartupTrace {
++  static final enabled =
++      !kIsWeb &&
++      Platform.isLinux &&
++      Platform.environment['MHABIT_STARTUP_TRACE'] == '1';
++  static String? _phase;
++  static bool _rootBuilt = false;
++
++  /// Writes synchronously, including before the app logger is available.
++  static void mark(String message) {
++    if (!enabled) return;
++    try {
++      stderr.writeln('[mhabit-startup] dart $message');
++    } on IOException {
++      // A closed diagnostic stream must not interrupt startup.
++    }
++  }
++
++  static void begin(String phase) {
++    if (!enabled) return;
++    _phase = phase;
++    mark('$phase begin');
++  }
++
++  static void returned() {
++    if (!enabled) return;
++    mark('$_phase returned');
++    _phase = null;
++  }
++
++  static void error(String source, Object error) {
++    if (!enabled || _phase == null) return;
++    mark('$_phase error source=$source type=${error.runtimeType}');
++  }
++
++  static void rootBuild() {
++    if (!enabled || _rootBuilt) return;
++    _rootBuilt = true;
++    mark('root-build');
++  }
++}
+diff --git a/lib/logging/logger_manager.dart b/lib/logging/logger_manager.dart
+index 0b455972..aba919c3 100644
+--- a/lib/logging/logger_manager.dart
++++ b/lib/logging/logger_manager.dart
+@@ -20,6 +20,7 @@ import '../utils/app_path_provider.dart';
+ import 'handlers/console_output.dart';
+ import 'handlers/console_printer.dart';
+ import 'handlers/filter.dart';
++import 'linux_startup_trace.dart';
+ import 'logger_type.dart';
+ import 'loggers/app_sync_logger.dart';
+ import 'loggers/text_logger.dart';
+@@ -166,6 +167,7 @@ class _AppLoggerManager implements AppLoggerMananger {
+   }
+
+   void _onFlutterErrorCatched(FlutterErrorDetails details) {
++    LinuxStartupTrace.error('framework', details.exception);
+     FlutterError.presentError(details);
+     debugger.fatal(
+       "------- Catched UN-HANDLED Exception -------",
+@@ -176,6 +178,7 @@ class _AppLoggerManager implements AppLoggerMananger {
+   }
+
+   bool _onPlatformErrorCatched(Object exception, StackTrace stackTrace) {
++    LinuxStartupTrace.error('platform', exception);
+     debugger.fatal(
+       "------- Catched UN-HANDLED Exception -------",
+       error: exception,
+diff --git a/lib/main.dart b/lib/main.dart
+index 24a6b8c5..14166b50 100644
+--- a/lib/main.dart
++++ b/lib/main.dart
+@@ -27,6 +27,7 @@ import 'common/app_info.dart';
+ import 'common/consts.dart';
+ import 'entries/app/entry.dart';
+ import 'entries/habit_widget/entry.dart';
++import 'logging/linux_startup_trace.dart';
+ import 'logging/logger_manager.dart';
+ import 'reminders/notification_service.dart';
+ import 'storage/desktop_window_persistence.dart';
+@@ -42,33 +43,58 @@ Future<void> habitWidgetBackgroundMain() async {
+ }
+
+ Future<void> main() async {
+-  if (Platform.isIOS) {
+-    FixedIos26FlutterBinding.ensureInitialized();
+-  } else {
+-    WidgetsFlutterBinding.ensureInitialized();
+-  }
++  LinuxStartupTrace.mark('main enter');
++  try {
++    LinuxStartupTrace.begin('binding');
++    if (Platform.isIOS) {
++      FixedIos26FlutterBinding.ensureInitialized();
++    } else {
++      WidgetsFlutterBinding.ensureInitialized();
++    }
++    LinuxStartupTrace.returned();
+
+-  // Load standard date data before eo to support DateFormat without a locale.
+-  await initializeDateFormatting();
+-  await loadLinuxBundledFont();
+-  await AppLoggerMananger(t: AppLoggerHandlerType.debugging).init();
+-  await AppInfo().init();
+-  await NotificationService().init();
+-  await LocalTimeZoneManager().init();
+-  await DesktopWindowPersistence().init();
++    // Load standard date data before eo to support DateFormat without a locale.
++    LinuxStartupTrace.begin('intl');
++    await initializeDateFormatting();
++    LinuxStartupTrace.returned();
++    LinuxStartupTrace.begin('font');
++    await loadLinuxBundledFont();
++    LinuxStartupTrace.returned();
++    LinuxStartupTrace.begin('logger');
++    await AppLoggerMananger(t: AppLoggerHandlerType.debugging).init();
++    LinuxStartupTrace.returned();
++    LinuxStartupTrace.begin('app-info');
++    await AppInfo().init();
++    LinuxStartupTrace.returned();
++    LinuxStartupTrace.begin('notifications');
++    await NotificationService().init();
++    LinuxStartupTrace.returned();
++    LinuxStartupTrace.begin('timezone');
++    await LocalTimeZoneManager().init();
++    LinuxStartupTrace.returned();
++    LinuxStartupTrace.begin('window-restore');
++    await DesktopWindowPersistence().init();
++    LinuxStartupTrace.returned();
+
+-  await NativeSort().config(
+-    SortOptions(
+-      windows: SortOptionsWindows.ffi(onLoadFailed: WindowsSort.pigeon),
+-    ),
+-  );
++    LinuxStartupTrace.begin('native-sort');
++    await NativeSort().config(
++      SortOptions(
++        windows: SortOptionsWindows.ffi(onLoadFailed: WindowsSort.pigeon),
++      ),
++    );
++    LinuxStartupTrace.returned();
+
+-  if (Platform.isMacOS) {
+-    await _runMacOSApp();
+-  } else if (Platform.isWindows || Platform.isLinux) {
+-    await _runAppWithNativeTitleBar();
+-  } else {
+-    runApp(const AppEntry());
++    if (Platform.isMacOS) {
++      await _runMacOSApp();
++    } else if (Platform.isWindows || Platform.isLinux) {
++      await _runAppWithNativeTitleBar();
++    } else {
++      runApp(const AppEntry());
++    }
++    LinuxStartupTrace.mark('main returned');
++  } catch (error) {
++    LinuxStartupTrace.error('main', error);
++    rethrow;
+   }
+ }
+
+@@ -83,8 +109,17 @@ Future<void> _runMacOSApp() async {
+ }
+
+ Future<void> _runAppWithNativeTitleBar() async {
++  LinuxStartupTrace.begin('title-bar-init');
+   final titleBar = DesktopWindowTitleBar();
+   await titleBar.initialize(minimumSize: appDesktopWindowMinimumSize);
++  LinuxStartupTrace.returned();
++  if (LinuxStartupTrace.enabled) {
++    // Observe the framework's first frame separately from engine rasterization.
++    WidgetsBinding.instance.addPostFrameCallback((_) {
++      LinuxStartupTrace.mark('framework-post-frame');
++    });
++  }
++  LinuxStartupTrace.begin('run-app');
+   runApp(
+     Provider<DesktopWindowTitleBar>(
+       create: (_) => titleBar,
+@@ -92,6 +127,11 @@ Future<void> _runAppWithNativeTitleBar() async {
+       child: const AppEntry(),
+     ),
+   );
++  LinuxStartupTrace.returned();
++  LinuxStartupTrace.begin('first-raster');
+   await WidgetsBinding.instance.waitUntilFirstFrameRasterized;
++  LinuxStartupTrace.returned();
++  LinuxStartupTrace.begin('window-show');
+   await titleBar.show();
++  LinuxStartupTrace.returned();
+ }
+diff --git a/lib/theme/linux_bundled_font.dart b/lib/theme/linux_bundled_font.dart
+index f4378748..0b8a52a7 100644
+--- a/lib/theme/linux_bundled_font.dart
++++ b/lib/theme/linux_bundled_font.dart
+@@ -17,6 +17,8 @@ import 'dart:ui' show loadFontFromList;
+
+ import 'package:flutter/foundation.dart';
+
++import '../logging/linux_startup_trace.dart';
++
+ const linuxBundledFontFamily = 'mhabit Noto Sans CJK SC';
+ const linuxBundledFontPath = '/app/share/fonts/NotoSansCJKsc-Regular.otf';
+
+@@ -41,11 +43,19 @@ Future<bool> loadLinuxBundledFont({
+   if ((platform ?? defaultTargetPlatform) != TargetPlatform.linux) return false;
+
+   final exists = fileExists ?? (String path) => File(path).exists();
+-  if (!await exists(path)) return false;
++  if (!await exists(path)) {
++    LinuxStartupTrace.mark('font file absent');
++    return false;
++  }
+
+   final read = readFile ?? (String path) => File(path).readAsBytes();
+   final register = registerFont ?? _registerFont;
+-  await register(await read(path), linuxBundledFontFamily);
++  LinuxStartupTrace.mark('font read begin');
++  final bytes = await read(path);
++  LinuxStartupTrace.mark('font read returned');
++  LinuxStartupTrace.mark('font register begin');
++  await register(bytes, linuxBundledFontFamily);
++  LinuxStartupTrace.mark('font register returned');
+   return true;
+ }
+
+diff --git a/linux/main.cc b/linux/main.cc
+index e7c5c54..497e52d 100644
+--- a/linux/main.cc
++++ b/linux/main.cc
+@@ -1,6 +1,13 @@
+ #include "my_application.h"
++#include "startup_trace.h"
+
+ int main(int argc, char** argv) {
++  startup_trace("main enter");
++  startup_trace("my_application_new begin");
+   g_autoptr(MyApplication) app = my_application_new();
+-  return g_application_run(G_APPLICATION(app), argc, argv);
++  startup_trace("my_application_new end");
++  startup_trace("g_application_run begin");
++  const int status = g_application_run(G_APPLICATION(app), argc, argv);
++  startup_trace("g_application_run end");
++  return status;
+ }
+diff --git a/linux/my_application.cc b/linux/my_application.cc
+index 0b99565..d8e4262 100644
+--- a/linux/my_application.cc
++++ b/linux/my_application.cc
+@@ -6,6 +6,7 @@
+ #endif
+
+ #include "flutter/generated_plugin_registrant.h"
++#include "startup_trace.h"
+
+ struct _MyApplication {
+   GtkApplication parent_instance;
+@@ -14,11 +15,25 @@ struct _MyApplication {
+
+ G_DEFINE_TYPE(MyApplication, my_application, GTK_TYPE_APPLICATION)
+
++static void on_window_map(GtkWidget*, gpointer) {
++  startup_trace("toplevel map");
++}
++
++static void on_view_first_frame(FlView*, gpointer) {
++  startup_trace("FlView first-frame");
++}
++
+ // Implements GApplication::activate.
+ static void my_application_activate(GApplication* application) {
++  startup_trace("activate enter");
+   MyApplication* self = MY_APPLICATION(application);
++  startup_trace("gtk_application_window_new begin");
+   GtkWindow* window =
+       GTK_WINDOW(gtk_application_window_new(GTK_APPLICATION(application)));
++  startup_trace("gtk_application_window_new end");
++  if (startup_trace_enabled()) {
++    g_signal_connect_after(window, "map", G_CALLBACK(on_window_map), nullptr);
++  }
+
+   // Use a header bar when running in GNOME as this is the common style used
+   // by applications and is the setup most users will be using (e.g. Ubuntu
+@@ -29,6 +44,7 @@ static void my_application_activate(GApplication* application) {
+   // if future cases occur).
+   gboolean use_header_bar = TRUE;
+ #ifdef GDK_WINDOWING_X11
++  startup_trace("X11 window manager check begin");
+   GdkScreen* screen = gtk_window_get_screen(window);
+   if (GDK_IS_X11_SCREEN(screen)) {
+     const gchar* wm_name = gdk_x11_screen_get_window_manager_name(screen);
+@@ -36,48 +52,80 @@ static void my_application_activate(GApplication* application) {
+       use_header_bar = FALSE;
+     }
+   }
++  startup_trace("X11 window manager check end");
+ #endif
+   if (use_header_bar) {
++    startup_trace("header bar setup begin");
+     GtkHeaderBar* header_bar = GTK_HEADER_BAR(gtk_header_bar_new());
+     gtk_widget_show(GTK_WIDGET(header_bar));
+     gtk_header_bar_set_show_close_button(header_bar, TRUE);
+     gtk_window_set_titlebar(window, GTK_WIDGET(header_bar));
++    startup_trace("header bar setup end");
+   }
+
+   // GTK synchronizes this title with its HeaderBar and window manager.
++  startup_trace("toplevel title and default size begin");
+   gtk_window_set_title(window, "Table Habit");
+   gtk_window_set_default_size(window, 1280, 720);
++  startup_trace("toplevel title and default size end");
+   // Realize without mapping: Dart restores size/position before the first show.
++  startup_trace("gtk_widget_realize(toplevel) begin");
+   gtk_widget_realize(GTK_WIDGET(window));
++  startup_trace("gtk_widget_realize(toplevel) end");
+
++  startup_trace("fl_dart_project_new begin");
+   g_autoptr(FlDartProject) project = fl_dart_project_new();
++  startup_trace("fl_dart_project_new end");
++  startup_trace("fl_dart_project_set_dart_entrypoint_arguments begin");
+   fl_dart_project_set_dart_entrypoint_arguments(project, self->dart_entrypoint_arguments);
++  startup_trace("fl_dart_project_set_dart_entrypoint_arguments end");
+
++  startup_trace("fl_view_new begin");
+   FlView* view = fl_view_new(project);
++  startup_trace("fl_view_new end");
++  if (startup_trace_enabled()) {
++    g_signal_connect_after(view, "first-frame", G_CALLBACK(on_view_first_frame), nullptr);
++  }
++  startup_trace("gtk_widget_show(view) begin");
+   gtk_widget_show(GTK_WIDGET(view));
++  startup_trace("gtk_widget_show(view) end");
++  startup_trace("gtk_container_add(view) begin");
+   gtk_container_add(GTK_CONTAINER(window), GTK_WIDGET(view));
++  startup_trace("gtk_container_add(view) end");
+
++  startup_trace("fl_register_plugins begin");
+   fl_register_plugins(FL_PLUGIN_REGISTRY(view));
++  startup_trace("fl_register_plugins end");
+
++  startup_trace("gtk_widget_grab_focus begin");
+   gtk_widget_grab_focus(GTK_WIDGET(view));
++  startup_trace("gtk_widget_grab_focus end");
++  startup_trace("activate exit");
+ }
+
+ // Implements GApplication::local_command_line.
+ static gboolean my_application_local_command_line(GApplication* application, gchar*** arguments, int* exit_status) {
++  startup_trace("local_command_line enter");
+   MyApplication* self = MY_APPLICATION(application);
+   // Strip out the first argument as it is the binary name.
+   self->dart_entrypoint_arguments = g_strdupv(*arguments + 1);
+
+   g_autoptr(GError) error = nullptr;
++  startup_trace("g_application_register begin");
+   if (!g_application_register(application, nullptr, &error)) {
++     startup_trace("g_application_register failed");
+      g_warning("Failed to register: %s", error->message);
+      *exit_status = 1;
+      return TRUE;
+   }
+
++  startup_trace("g_application_register end");
++  startup_trace("g_application_activate begin");
+   g_application_activate(application);
++  startup_trace("g_application_activate end");
+   *exit_status = 0;
+
++  startup_trace("local_command_line exit");
+   return TRUE;
+ }
+
+diff --git a/linux/startup_trace.h b/linux/startup_trace.h
+new file mode 100644
+index 0000000..d0e1913
+--- /dev/null
++++ b/linux/startup_trace.h
+@@ -0,0 +1,19 @@
++#ifndef MHABIT_LINUX_STARTUP_TRACE_H_
++#define MHABIT_LINUX_STARTUP_TRACE_H_
++
++#include <cstdio>
++#include <glib.h>
++
++inline bool startup_trace_enabled() {
++  static const bool enabled = g_strcmp0(g_getenv("MHABIT_STARTUP_TRACE"), "1") == 0;
++  return enabled;
++}
++
++inline void startup_trace(const char* stage) {
++  if (startup_trace_enabled()) {
++    std::fprintf(stderr, "[mhabit-startup] native %s\n", stage);
++    std::fflush(stderr);
++  }
++}
++
++#endif  // MHABIT_LINUX_STARTUP_TRACE_H_

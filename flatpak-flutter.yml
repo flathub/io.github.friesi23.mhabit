@@ -73,6 +73,8 @@ modules:
         tag: v1.27.25+214
         commit: bbaad4d3f8380e0fc7d8d74cd1fdbde803338569
         disable-submodules: true
+      - type: patch
+        path: patches/linux-startup-trace.patch
       - type: git
         url: https://github.com/flutter/flutter.git
         tag: 3.47.9
