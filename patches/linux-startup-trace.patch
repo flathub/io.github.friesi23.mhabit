@@ -292,7 +292,7 @@ index e7c5c54..497e52d 100644
 +  return status;
  }
 diff --git a/linux/my_application.cc b/linux/my_application.cc
-index 0b99565..d8e4262 100644
+index 0b99565..c163c7a 100644
 --- a/linux/my_application.cc
 +++ b/linux/my_application.cc
 @@ -6,6 +6,7 @@
@@ -337,7 +337,7 @@ index 0b99565..d8e4262 100644
    GdkScreen* screen = gtk_window_get_screen(window);
    if (GDK_IS_X11_SCREEN(screen)) {
      const gchar* wm_name = gdk_x11_screen_get_window_manager_name(screen);
-@@ -36,48 +52,80 @@ static void my_application_activate(GApplication* application) {
+@@ -36,48 +52,82 @@ static void my_application_activate(GApplication* application) {
        use_header_bar = FALSE;
      }
    }
@@ -365,6 +365,8 @@ index 0b99565..d8e4262 100644
 +  startup_trace("fl_dart_project_new begin");
    g_autoptr(FlDartProject) project = fl_dart_project_new();
 +  startup_trace("fl_dart_project_new end");
++  fl_dart_project_set_enable_impeller(project, FALSE);
++  startup_trace("Skia requested (Impeller disabled)");
 +  startup_trace("fl_dart_project_set_dart_entrypoint_arguments begin");
    fl_dart_project_set_dart_entrypoint_arguments(project, self->dart_entrypoint_arguments);
 +  startup_trace("fl_dart_project_set_dart_entrypoint_arguments end");
